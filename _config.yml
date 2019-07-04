@@ -1,9 +1,9 @@
 # Site
-title: Halve
-description: Stylish, Two-Column Jekyll Theme
-url: https://taylantatli.github.io/Halve
-logo: halve.png                                       # Site logo
-locale: en_US
+title: Xiangyu Zhang(张翔宇)
+description: PHD student(southeast university)
+url: https://zachary2wave.github.io
+logo: image/head.jpg                                     # Site logo
+locale: Nanjing-CN
 
 # Left Block Images
 background:
@@ -25,16 +25,12 @@ sass:
   sass_dir:         assets/_sass
   style:            compressed
 
-# Google Analytics
-#google-analytics: UA-XXXXX-Y
 
-# Social Links
-#email:             email
-#google.plus:        username
-twitter:            username
+
+#twitter:            username
 #facebook:           username
-github:             username
-stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+github:              zachary2wave
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
 #instagram:          username
