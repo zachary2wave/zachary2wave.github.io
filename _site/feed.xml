@@ -1,1006 +1,1273 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.2">Jekyll</generator><link href="https://zachary2wave.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zachary2wave.github.io/" rel="alternate" type="text/html" /><updated>2019-07-04T16:50:18+08:00</updated><id>https://zachary2wave.github.io/</id><title>Xiangyu Zhang(张翔宇)</title><subtitle>PHD student(southeast university)</subtitle><entry><title>Halve Jekyll Theme</title><link href="https://zachary2wave.github.io/halve-theme/" rel="alternate" type="text/html" title="Halve Jekyll Theme" /><published>2016-05-29T00:00:00+08:00</published><updated>2016-05-29T00:00:00+08:00</updated><id>https://zachary2wave.github.io/halve-theme</id><content type="html" xml:base="https://zachary2wave.github.io/halve-theme/">&lt;p&gt;&lt;a href=&quot;https://zachary2wave.github.io/images/halve-home-image.png&quot;&gt;&lt;img src=&quot;https://zachary2wave.github.io/images/halve-home-image.png&quot; alt=&quot;Home Page of Halve&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2019-07-05T13:17:23+08:00</updated><id>http://localhost:4000/</id><title type="html">Xiangyu Zhang</title><subtitle>PHD student; Major in intelligence wireless communication</subtitle><author><name>Xiangyu Zhang</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">Example content</title><link href="http://localhost:4000/2017/11/22/example-content/" rel="alternate" type="text/html" title="Example content" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://localhost:4000/2017/11/22/example-content</id><content type="html" xml:base="http://localhost:4000/2017/11/22/example-content/">&lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, or &lt;del&gt;strikethrough&lt;/del&gt;.&lt;/p&gt;
 
-&lt;center&gt;&lt;b&gt;Halve&lt;/b&gt; is a stylish, two-column jekyll theme.&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;another-page&quot;&gt;Link to another page&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;This theme is Jekyll port of &lt;a href=&quot;http://vangeltzo.com/&quot;&gt;vangeltzo.com&lt;/a&gt; (by &lt;a href=&quot;https://github.com/srekoble&quot;&gt;Vangelis Tzortzis&lt;/a&gt;). I couldn’t stop myself to port this theme when I saw his site. And he kindly gave me permission to share this with you.&lt;/p&gt;
+&lt;p&gt;There should be whitespace between paragraphs.&lt;/p&gt;
 
-&lt;iframe src=&quot;https://ghbtns.com/github-btn.html?user=TaylanTatli&amp;amp;repo=Halve&amp;amp;type=star&amp;amp;count=true&amp;amp;size=large&quot; frameborder=&quot;0&quot; scrolling=&quot;0&quot; width=&quot;160px&quot; height=&quot;30px&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.&lt;/p&gt;
 
-&lt;h2 id=&quot;installation-and-quick-usage&quot;&gt;Installation and Quick Usage&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Fork the &lt;a href=&quot;https://github.com/TaylanTatli/Halve/fork&quot;&gt;Halve repo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file.&lt;/li&gt;
-  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;index.md&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/projects.yaml&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Add a logo with a small one to &lt;code class=&quot;highlighter-rouge&quot;&gt;images&lt;/code&gt; folder. (eg. &lt;code class=&quot;highlighter-rouge&quot;&gt;logo.png&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;logo-small.png&lt;/code&gt;)&lt;/li&gt;
-  &lt;li&gt;Remove sample posts from &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder and add yours.&lt;/li&gt;
-  &lt;li&gt;Remove/Change sample images from &lt;code class=&quot;highlighter-rouge&quot;&gt;images&lt;/code&gt; folder.&lt;/li&gt;
-  &lt;li&gt;Change repo name to &lt;code class=&quot;highlighter-rouge&quot;&gt;YourUserName.github.io&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h1 id=&quot;header-1&quot;&gt;Header 1&lt;/h1&gt;
 
-&lt;p&gt;That’s all.&lt;/p&gt;
+&lt;p&gt;This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.&lt;/p&gt;
 
-&lt;p&gt;If you want to make a &lt;strong&gt;Project Page&lt;/strong&gt;, you have to use &lt;code class=&quot;highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt; branch. For &lt;strong&gt;Personal Page&lt;/strong&gt;; &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt; branch. More info &lt;a href=&quot;https://help.github.com/articles/about-github-pages-and-jekyll/#jekylls-build-process&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-    
-    &lt;a href=&quot;https://zachary2wave.github.io/images/halve-home-image.png&quot;&gt;&lt;img src=&quot;https://zachary2wave.github.io/images/halve-home-image.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;https://zachary2wave.github.io/images/post-image-halve-1.png&quot;&gt;&lt;img src=&quot;https://zachary2wave.github.io/images/post-image-halve-1.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;https://zachary2wave.github.io/images/post-image-halve-2.png&quot;&gt;&lt;img src=&quot;https://zachary2wave.github.io/images/post-image-halve-2.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;figcaption&gt;Screenshots of Halve Theme&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-    
-    &lt;a href=&quot;https://zachary2wave.github.io/images/post-image-halve-3.png&quot;&gt;&lt;img src=&quot;https://zachary2wave.github.io/images/post-image-halve-3.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;https://zachary2wave.github.io/images/post-image-halve-6.png&quot;&gt;&lt;img src=&quot;https://zachary2wave.github.io/images/post-image-halve-6.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;https://zachary2wave.github.io/images/post-image-halve-4.png&quot;&gt;&lt;img src=&quot;https://zachary2wave.github.io/images/post-image-halve-4.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;figcaption&gt;Mobile view of Halve Theme&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;See a &lt;a href=&quot;http://taylantatli.github.io/Halve&quot;&gt;live version of Halve&lt;/a&gt; hosted on GitHub.&lt;/p&gt;
-
-&lt;h2 id=&quot;site-setup&quot;&gt;Site Setup&lt;/h2&gt;
-&lt;p&gt;A quick checklist of the files you’ll want to edit to get up and running.&lt;/p&gt;
-
-&lt;h3 id=&quot;site-wide-configuration&quot;&gt;Site Wide Configuration&lt;/h3&gt;
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; is your friend. Open it up and personalize it. Most variables are self explanatory but here’s an explanation of each if needed:&lt;/p&gt;
-
-&lt;h4 id=&quot;title&quot;&gt;title&lt;/h4&gt;
-
-&lt;p&gt;The title of your site… shocker!&lt;/p&gt;
-
-&lt;p&gt;Example &lt;code class=&quot;highlighter-rouge&quot;&gt;title: My Awesome Site&lt;/code&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;description&quot;&gt;description&lt;/h4&gt;
-
-&lt;p&gt;The description to use for meta tags and homepage.&lt;/p&gt;
-
-&lt;h4 id=&quot;url&quot;&gt;url&lt;/h4&gt;
-
-&lt;p&gt;Used to generate absolute urls in &lt;code class=&quot;highlighter-rouge&quot;&gt;sitemap.xml&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;feed.xml&lt;/code&gt;, and for generating canonical URLs in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;. When developing locally either comment this out or use something like &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:4000&lt;/code&gt; so all assets load properly. &lt;em&gt;Don’t include a trailing &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt;&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Examples:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://taylantatli.me/Halve&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://localhost:4000&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;//cooldude.github.io&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h4 id=&quot;logo&quot;&gt;logo&lt;/h4&gt;
-&lt;p&gt;Your site’s logo. It will be shown on homepage. Also used for twitter meta tags.&lt;/p&gt;
-
-&lt;h4 id=&quot;background&quot;&gt;background&lt;/h4&gt;
-&lt;p&gt;Here we will set images for left block. Example:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;background:
-  homepage: images/home.png
-  post-list: images/unsplash-image-10.jpg
-  default-post: images/unsplash-gallery-image-3.jpg 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;homepage&lt;/dt&gt;
-  &lt;dd&gt;Is for homepage background image.&lt;/dd&gt;
-  &lt;dt&gt;post-list&lt;/dt&gt;
-  &lt;dd&gt;Is for posts list page background image.&lt;/dd&gt;
-  &lt;dt&gt;default-post&lt;/dt&gt;
-  &lt;dd&gt;Is for posts&#39; default background image. It will be shown for every posts that don&#39;t specify any image from post&#39;s YAML front matter.&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;projects-overlay&quot;&gt;Projects Overlay&lt;/h3&gt;
-
-&lt;p&gt;To set what image links appear in the overlay menu edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/projects.yaml&lt;/code&gt;. Use the following format to set the URL, title, image and project status for as many links as you’d like. If you set &lt;code class=&quot;highlighter-rouge&quot;&gt;completed&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; like &lt;code class=&quot;highlighter-rouge&quot;&gt;completed: false&lt;/code&gt;, it won’t be clickable until you set it true like &lt;code class=&quot;highlighter-rouge&quot;&gt;completed: true&lt;/code&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Moon Jekyll Theme&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://taylantatli.me/Moon&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;completed&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
-
-&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Ramme Jekyll Theme&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://taylantatli.me/Ramme&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://raw.githubusercontent.com/TaylanTatli/Ramme/master/assets/img/screenshot-post.png&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;completed&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
-
-&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Daisy Pelican Theme&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://taylantatli.me/Daisy-Pelican-Theme/&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://raw.githubusercontent.com/TaylanTatli/Daisy-Pelican-Theme/master/Preview-1.png&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;completed&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
-
-&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Block Icon Theme&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://github.com/TaylanTatli/Block-Icon-Theme&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://raw.githubusercontent.com/TaylanTatli/Block-Icon-Theme/master/Preview.png&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;completed&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;false&lt;/span&gt;
-
-&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Start Page&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://taylantatli.me/StartPage/&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://raw.githubusercontent.com/TaylanTatli/StartPage/master/preview.png&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;completed&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;layouts-and-content&quot;&gt;Layouts and Content&lt;/h2&gt;
-
-&lt;p&gt;Halve Theme use &lt;a href=&quot;https://github.com/penibelst/jekyll-compress-html&quot;&gt;Jekyll Compress&lt;/a&gt; to compress html output. But it can cause errors if you use “linenos” (line numbers). I suggest don’t use line numbers for codes, because it won’t look good with this theme, also i didn’t give a proper style for them. If you insist to use line numbers, just remove &lt;code class=&quot;highlighter-rouge&quot;&gt;layout: compress&lt;/code&gt; string from layouts. It will disable compressing.&lt;/p&gt;
-
-&lt;h3 id=&quot;images-for-posts&quot;&gt;Images for Posts&lt;/h3&gt;
-
-&lt;p&gt;You can set left block image per post. Just add &lt;code class=&quot;highlighter-rouge&quot;&gt;image: some link&lt;/code&gt; to your post’s front matter. If you don’t set this, default post image will be used from &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;image: /assets/img/some-image.png
-or
-image: http://example.com/some-image.png
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;This also will be used for twitter card:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://zachary2wave.github.io/images/post-image-halve-5.png&quot; alt=&quot;Halve Twitter Card&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;questions&quot;&gt;Questions?&lt;/h2&gt;
-
-&lt;p&gt;Found a bug or aren’t quite sure how something works? By all means &lt;a href=&quot;https://github.com/TaylanTatli/Halve/issues/new&quot;&gt;file a GitHub Issue&lt;/a&gt;. And if you make something cool with this theme feel free to let me know.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
-
-&lt;p&gt;This theme is free and open source software, distributed under the MIT License. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer.&lt;/p&gt;</content><category term="jekyll" /><category term="halve" /><category term="blog" /><category term="vangeltzo" /><category term="theme" /><category term="vangelis" /><summary>Stylish, two-column Jekyll theme for your blog.</summary></entry><entry><title>Markup: Text Readability Test</title><link href="https://zachary2wave.github.io/markup-text-readability/" rel="alternate" type="text/html" title="Markup: Text Readability Test" /><published>2016-05-22T00:00:00+08:00</published><updated>2016-05-22T00:00:00+08:00</updated><id>https://zachary2wave.github.io/markup-text-readability</id><content type="html" xml:base="https://zachary2wave.github.io/markup-text-readability/">&lt;p&gt;Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
-
-&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
-
-&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot;&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
-
-&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sartorial hoodie&lt;/li&gt;
-  &lt;li&gt;Labore viral forage&lt;/li&gt;
-  &lt;li&gt;Tote bag selvage&lt;/li&gt;
-  &lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
-
-&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven’t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney’s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
-
-&lt;h2 id=&quot;forage-occaecat-cardigan-qui&quot;&gt;Forage occaecat cardigan qui&lt;/h2&gt;
-
-&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90’s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.&lt;/p&gt;
+&lt;h2 id=&quot;header-2&quot;&gt;Header 2&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
+  &lt;p&gt;This is a blockquote following a header.&lt;/p&gt;
+
+  &lt;p&gt;When something is important enough, you do it even if the odds are not in your favor.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney’s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney’s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
+&lt;h3 id=&quot;header-3&quot;&gt;Header 3&lt;/h3&gt;
 
-&lt;h2 id=&quot;hoodie-duis&quot;&gt;Hoodie Duis&lt;/h2&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Javascript code with syntax highlighting.&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fun&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;dateformat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i18n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'./lang/'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90’s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Ruby code with syntax highlighting&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;GitHubPages&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dependencies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gems&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;add_dependency&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;= &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;thundercats-ho&quot;&gt;Thundercats Ho!&lt;/h3&gt;
+&lt;h4 id=&quot;header-4&quot;&gt;Header 4&lt;/h4&gt;
 
-&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney’s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
-
-&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
-
-&lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;</content><category term="sample post" /><category term="readability" /><category term="test" /><summary>A bunch of text to test readability.</summary></entry><entry><title>Moon Jekyll Theme</title><link href="https://zachary2wave.github.io/moon-theme/" rel="alternate" type="text/html" title="Moon Jekyll Theme" /><published>2016-04-06T00:00:00+08:00</published><updated>2016-04-06T00:00:00+08:00</updated><id>https://zachary2wave.github.io/moon-theme</id><content type="html" xml:base="https://zachary2wave.github.io/moon-theme/">&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png&quot; alt=&quot;Moon Homepage&quot; /&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;b&gt;Moon&lt;/b&gt; is a minimal, one column jekyll theme.&lt;/center&gt;
-
-&lt;p&gt;I’m not a developer or designer. And I don’t add footer to show who did this theme. If you like this theme or using it, please give a &lt;strong&gt;star&lt;/strong&gt; for motivation, It makes me happy.&lt;/p&gt;
-
-&lt;iframe src=&quot;https://ghbtns.com/github-btn.html?user=TaylanTatli&amp;amp;repo=Moon&amp;amp;type=star&amp;amp;count=true&amp;amp;size=large&quot; frameborder=&quot;0&quot; scrolling=&quot;0&quot; width=&quot;160px&quot; height=&quot;30px&quot;&gt;&lt;/iframe&gt;
-
-&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;Fork the &lt;a href=&quot;https://github.com/TaylanTatli/Moon/fork&quot;&gt;Moon repo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file.&lt;/li&gt;
-  &lt;li&gt;Remove sample posts from &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder and add yours.&lt;/li&gt;
-  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;index.md&lt;/code&gt; file in &lt;code class=&quot;highlighter-rouge&quot;&gt;about&lt;/code&gt; folder.&lt;/li&gt;
-  &lt;li&gt;Change repo name to &lt;code class=&quot;highlighter-rouge&quot;&gt;YourUserName.github.io&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+  &lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+  &lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;That’s all.&lt;/p&gt;
-
-&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-    
-    &lt;a href=&quot;https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;https://cloud.githubusercontent.com/assets/754514/14509717/61ad05ae-01d6-11e6-85ae-5a817dd8763b.png&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509717/61ad05ae-01d6-11e6-85ae-5a817dd8763b.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;https://cloud.githubusercontent.com/assets/754514/14509714/61a89708-01d6-11e6-8fcd-74b002a060df.png&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509714/61a89708-01d6-11e6-8fcd-74b002a060df.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;figcaption&gt;Screenshots of Moon Theme&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;hr /&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-    
-    &lt;a href=&quot;https://cloud.githubusercontent.com/assets/754514/14509718/61b09a20-01d6-11e6-8da1-4202ae4d83cd.png&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509718/61b09a20-01d6-11e6-8da1-4202ae4d83cd.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;https://cloud.githubusercontent.com/assets/754514/14509715/61aa9d00-01d6-11e6-81a6-c6837edf2e84.png&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509715/61aa9d00-01d6-11e6-81a6-c6837edf2e84.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;figcaption&gt;Moon Theme on Small Screen Size&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;See a &lt;a href=&quot;http://taylantatli.github.io/Moon&quot;&gt;live version of Moon&lt;/a&gt; hosted on GitHub.&lt;/p&gt;
-
-&lt;h2 id=&quot;site-setup&quot;&gt;Site Setup&lt;/h2&gt;
-&lt;p&gt;A quick checklist of the files you’ll want to edit to get up and running.&lt;/p&gt;
-
-&lt;h3 id=&quot;site-wide-configuration&quot;&gt;Site Wide Configuration&lt;/h3&gt;
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; is your friend. Open it up and personalize it. Most variables are self explanatory but here’s an explanation of each if needed:&lt;/p&gt;
-
-&lt;h4 id=&quot;title&quot;&gt;title&lt;/h4&gt;
-
-&lt;p&gt;The title of your site… shocker!&lt;/p&gt;
-
-&lt;p&gt;Example &lt;code class=&quot;highlighter-rouge&quot;&gt;title: My Awesome Site&lt;/code&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;bio&quot;&gt;bio&lt;/h4&gt;
-
-&lt;p&gt;The description to show on your homepage.&lt;/p&gt;
-
-&lt;h4 id=&quot;description&quot;&gt;description&lt;/h4&gt;
-
-&lt;p&gt;The description to use for meta tags and navigation menu.&lt;/p&gt;
-
-&lt;h4 id=&quot;url&quot;&gt;url&lt;/h4&gt;
-
-&lt;p&gt;Used to generate absolute urls in &lt;code class=&quot;highlighter-rouge&quot;&gt;sitemap.xml&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;feed.xml&lt;/code&gt;, and for generating canonical URLs in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;. When developing locally either comment this out or use something like &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:4000&lt;/code&gt; so all assets load properly. &lt;em&gt;Don’t include a trailing &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt;&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Examples:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://taylantatli.me/Moon&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://localhost:4000&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;//cooldude.github.io&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h4 id=&quot;readingtime&quot;&gt;reading_time&lt;/h4&gt;
-
-&lt;p&gt;Set true to show reading time for posts. And set &lt;code class=&quot;highlighter-rouge&quot;&gt;words_per_minute&lt;/code&gt;, default is 200.&lt;/p&gt;
-
-&lt;h4 id=&quot;logo&quot;&gt;logo&lt;/h4&gt;
-&lt;p&gt;Your site’s logo. It will show on homepage and navigation menu. Also used for twitter meta tags.&lt;/p&gt;
-
-&lt;h4 id=&quot;background&quot;&gt;background&lt;/h4&gt;
-&lt;p&gt;Image for background. If you don’t set it, color will be used as a background.&lt;/p&gt;
-
-&lt;h4 id=&quot;google-analytics-and-webmaster-tools&quot;&gt;Google Analytics and Webmaster Tools&lt;/h4&gt;
-
-&lt;p&gt;Google Analytics UA and Webmaster Tool verification tags can be entered in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;. For more information on obtaining these meta tags check &lt;a href=&quot;http://support.google.com/webmasters/bin/answer.py?hl=en&amp;amp;answer=35179&quot;&gt;Google Webmaster Tools&lt;/a&gt; and &lt;a href=&quot;https://ssl.bing.com/webmaster/configure/verify/ownership&quot;&gt;Bing Webmaster Tools&lt;/a&gt; support.&lt;/p&gt;
-
-&lt;h4 id=&quot;mathjax&quot;&gt;MathJax&lt;/h4&gt;
-&lt;p&gt;It’s enabled. But if you don’t want to use it. Set it false in  &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;disqus-comments&quot;&gt;Disqus Comments&lt;/h4&gt;
-&lt;p&gt;Set your disqus shortname in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; to use comments.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;navigation-links&quot;&gt;Navigation Links&lt;/h3&gt;
-
-&lt;p&gt;To set what links appear in the top navigation edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/navigation.yml&lt;/code&gt;. Use the following format to set the URL and title for as many links as you’d like. &lt;em&gt;External links will open in a new window.&lt;/em&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Home&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/&lt;/span&gt;
-
-&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Blog&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/blog/&lt;/span&gt;
-
-&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Projects&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/projects/&lt;/span&gt;
-
-&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;About&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/about/&lt;/span&gt;
-
-&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Moon&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://taylantatli.me/Moon&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;layouts-and-content&quot;&gt;Layouts and Content&lt;/h2&gt;
-
-&lt;p&gt;Moon Theme use &lt;a href=&quot;https://github.com/penibelst/jekyll-compress-html&quot;&gt;Jekyll Compress&lt;/a&gt; to compress html output. But it can cause errors if you use “linenos” (line numbers). I suggest don’t use line numbers for codes, because it won’t look good with this theme, also i didn’t give a proper style for them. If you insist to use line numbers, just remove &lt;code class=&quot;highlighter-rouge&quot;&gt;layout: compress&lt;/code&gt; string from layouts. It will disable compressing.&lt;/p&gt;
-
-&lt;h3 id=&quot;feature-image&quot;&gt;Feature Image&lt;/h3&gt;
-
-&lt;p&gt;You can set feature image per post. Just add &lt;code class=&quot;highlighter-rouge&quot;&gt;feature: some link&lt;/code&gt; to your post’s front matter.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;feature: /assets/img/some-image.png
-or
-feaure: http://example.com/some-image.png
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;This also will be used for twitter card:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509719/61c5751c-01d6-11e6-8c29-ce8ccad149bf.png&quot; alt=&quot;Moon Twitter Card&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;comments&quot;&gt;Comments&lt;/h3&gt;
-&lt;p&gt;To show disqus comments for your post add &lt;code class=&quot;highlighter-rouge&quot;&gt;comments: true&lt;/code&gt; to your post’s front matter.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;questions&quot;&gt;Questions?&lt;/h2&gt;
-
-&lt;p&gt;Found a bug or aren’t quite sure how something works? By all means &lt;a href=&quot;https://github.com/TaylanTatli/Moon/issues/new&quot;&gt;file a GitHub Issue&lt;/a&gt;. And if you make something cool with this theme feel free to let me know.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
-
-&lt;p&gt;This theme is free and open source software, distributed under the MIT License. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer.&lt;/p&gt;</content><category term="jekyll" /><category term="moon" /><category term="blog" /><category term="about" /><category term="theme" /><summary>Minimal, one column Jekyll theme for your blog.</summary></entry><entry><title>Markdown Syntax</title><link href="https://zachary2wave.github.io/markdown-syntax/" rel="alternate" type="text/html" title="Markdown Syntax" /><published>2016-03-15T00:00:00+08:00</published><updated>2016-03-15T00:00:00+08:00</updated><id>https://zachary2wave.github.io/markdown-syntax</id><content type="html" xml:base="https://zachary2wave.github.io/markdown-syntax/">&lt;h2 id=&quot;html-elements&quot;&gt;HTML Elements&lt;/h2&gt;
-
-&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
-
-&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
-
-&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt;
-
-&lt;h4 id=&quot;heading-4&quot;&gt;Heading 4&lt;/h4&gt;
-
-&lt;h5 id=&quot;heading-5&quot;&gt;Heading 5&lt;/h5&gt;
-
-&lt;h6 id=&quot;heading-6&quot;&gt;Heading 6&lt;/h6&gt;
-
-&lt;h3 id=&quot;body-text&quot;&gt;Body text&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-
-&lt;p class=&quot;image-right&quot;&gt;&lt;img src=&quot;https://mmistakes.github.io/minimal-mistakes/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
-
-&lt;p&gt;HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.&lt;/p&gt;
-
-&lt;h3 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;list-types&quot;&gt;List Types&lt;/h2&gt;
-
-&lt;h3 id=&quot;ordered-lists&quot;&gt;Ordered Lists&lt;/h3&gt;
+&lt;h5 id=&quot;header-5&quot;&gt;Header 5&lt;/h5&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Item one
-    &lt;ol&gt;
-      &lt;li&gt;sub item one&lt;/li&gt;
-      &lt;li&gt;sub item two&lt;/li&gt;
-      &lt;li&gt;sub item three&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
+  &lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+  &lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+  &lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;unordered-lists&quot;&gt;Unordered Lists&lt;/h3&gt;
+&lt;h6 id=&quot;header-6&quot;&gt;Header 6&lt;/h6&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;head1&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;head two&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;three&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ok&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;good swedish fish&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;nice&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;out of stock&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;good and plenty&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;nice&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ok&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;good &lt;code class=&quot;highlighter-rouge&quot;&gt;oreos&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;hmm&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ok&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;good &lt;code class=&quot;highlighter-rouge&quot;&gt;zoute&lt;/code&gt; drop&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;yumm&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;theres-a-horizontal-rule-below-this&quot;&gt;There’s a horizontal rule below this.&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;here-is-an-unordered-list&quot;&gt;Here is an unordered list:&lt;/h3&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;Item foo&lt;/li&gt;
+  &lt;li&gt;Item bar&lt;/li&gt;
+  &lt;li&gt;Item baz&lt;/li&gt;
+  &lt;li&gt;Item zip&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;and-an-ordered-list&quot;&gt;And an ordered list:&lt;/h3&gt;
+
+&lt;ol&gt;
   &lt;li&gt;Item one&lt;/li&gt;
   &lt;li&gt;Item two&lt;/li&gt;
   &lt;li&gt;Item three&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
-
-&lt;table rules=&quot;groups&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Header1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Header3&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Foot1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Foot2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Foot3&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
-
-&lt;p&gt;Make any link standout more when applying the &lt;code class=&quot;highlighter-rouge&quot;&gt;.btn&lt;/code&gt; class.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn-success&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Success Button&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Primary Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-success&quot;&gt;Success Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-warning&quot;&gt;Warning Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-danger&quot;&gt;Danger Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-info&quot;&gt;Info Button&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;kbd&quot;&gt;KBD&lt;/h2&gt;
-
-&lt;p&gt;You can also use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;kbd&amp;gt;&lt;/code&gt; tag for keyboard buttons.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;kbd&amp;gt;&lt;/span&gt;W&lt;span class=&quot;nt&quot;&gt;&amp;lt;/kbd&amp;gt;&amp;lt;kbd&amp;gt;&lt;/span&gt;A&lt;span class=&quot;nt&quot;&gt;&amp;lt;/kbd&amp;gt;&amp;lt;kbd&amp;gt;&lt;/span&gt;S&lt;span class=&quot;nt&quot;&gt;&amp;lt;/kbd&amp;gt;&amp;lt;kbd&amp;gt;&lt;/span&gt;D&lt;span class=&quot;nt&quot;&gt;&amp;lt;/kbd&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Press &lt;kbd&gt;W&lt;/kbd&gt;&lt;kbd&gt;A&lt;/kbd&gt;&lt;kbd&gt;S&lt;/kbd&gt;&lt;kbd&gt;D&lt;/kbd&gt; to move your car. &lt;strong&gt;Midtown Maddness!!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;notices&quot;&gt;Notices&lt;/h2&gt;
-
-&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; You can also add notices by appending &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.notice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt; to a paragraph.&lt;/p&gt;</content><category term="markdown" /><category term="syntax" /><category term="sample" /><category term="test" /><category term="jekyll" /><summary>Just about everything you&#39;ll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.</summary></entry><entry><title>A Post with a Video</title><link href="https://zachary2wave.github.io/video-post/" rel="alternate" type="text/html" title="A Post with a Video" /><published>2016-03-15T00:00:00+08:00</published><updated>2016-03-15T00:00:00+08:00</updated><id>https://zachary2wave.github.io/video-post</id><content type="html" xml:base="https://zachary2wave.github.io/video-post/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/SU3kYxJmWuQ&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
-
-&lt;p&gt;Video embeds are responsive and scale with the width of the main content block with the help of &lt;a href=&quot;http://fitvidsjs.com/&quot;&gt;FitVids&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Not sure if this only effects Kramdown or if it’s an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;iframe&amp;gt;&lt;/code&gt; tags and remove &lt;code class=&quot;highlighter-rouge&quot;&gt;allowfullscreen&lt;/code&gt;. Example below:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;560&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;315&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;//www.youtube.com/embed/SU3kYxJmWuQ&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><category term="sample" /><category term="post" /><category term="video" /><summary>Custom written post descriptions are the way to go... if you&#39;re not lazy.</summary></entry><entry><title>Markup: Syntax Highlighting</title><link href="https://zachary2wave.github.io/markup-syntax-highlighting/" rel="alternate" type="text/html" title="Markup: Syntax Highlighting" /><published>2015-08-16T00:00:00+08:00</published><updated>2015-08-16T00:00:00+08:00</updated><id>https://zachary2wave.github.io/markup-syntax-highlighting</id><content type="html" xml:base="https://zachary2wave.github.io/markup-syntax-highlighting/">&lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;gfm-code-blocks&quot;&gt;GFM Code Blocks&lt;/h3&gt;
-
-&lt;p&gt;GitHub Flavored Markdown &lt;a href=&quot;https://help.github.com/articles/creating-and-highlighting-code-blocks/&quot;&gt;fenced code blocks&lt;/a&gt; are supported. To modify styling and highlight colors edit &lt;code class=&quot;highlighter-rouge&quot;&gt;/_sass/syntax.scss&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;pagination&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navigation&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  {% if page.previous %}
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ page.previous.url }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.previous.title }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Previous article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-  {% endif %}
-  {% if page.next %}
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ page.next.url }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.next.title }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Next article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-  {% endif %}
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- /.pagination --&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Jekyll&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TagIndex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Page&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@site&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@base&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;index.html&#39;&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;read_yaml&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;_layouts&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;tag_index.html&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;tag&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;tag_title_prefix&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Tagged: &#39;&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;tag_title_suffix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;tag_title_suffix&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;&amp;amp;#8211;&#39;&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;title&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;description&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;An archive of posts tagged &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.&quot;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;code-blocks-in-lists&quot;&gt;Code Blocks in Lists&lt;/h3&gt;
-
-&lt;p&gt;Indentation matters. Be sure the indent of the code block aligns with the first non-space character after the list item marker (e.g., &lt;code class=&quot;highlighter-rouge&quot;&gt;1.&lt;/code&gt;). Usually this will mean indenting 3 spaces instead of 4.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Do step 1.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Now do this:&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Now you can do this.&lt;/li&gt;
+  &lt;li&gt;Item four&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;github-gist-embed&quot;&gt;GitHub Gist Embed&lt;/h3&gt;
-
-&lt;p&gt;An example of a Gist embed below.&lt;/p&gt;
-
-&lt;noscript&gt;&lt;pre&gt;400: Invalid request
-&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/e813c2560b0f1ecc9f5d.js?file=pacman.patch&quot;&gt; &lt;/script&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;http://en.wikipedia.org/wiki/Syntax_highlighting&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><category term="code" /><category term="syntax highlighting" /><summary>Post displaying the various ways of highlighting code in Markdown.</summary></entry><entry><title>MathJax Example</title><link href="https://zachary2wave.github.io/mathjax-example/" rel="alternate" type="text/html" title="MathJax Example" /><published>2015-08-10T00:00:00+08:00</published><updated>2015-08-10T00:00:00+08:00</updated><id>https://zachary2wave.github.io/mathjax-example</id><content type="html" xml:base="https://zachary2wave.github.io/mathjax-example/">&lt;p&gt;&lt;a href=&quot;http://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt; is a simple way of including Tex/LaTex/MathML based mathematics in HTML webpages. To get up and running you need to include the MathJax script in the header of your github pages page, and then write some maths. For LaTex, there are two delimiters you need to know about, one for block or displayed mathematics &lt;code class=&quot;highlighter-rouge&quot;&gt;\[ ... \]&lt;/code&gt;, and the other for inline mathematics &lt;code class=&quot;highlighter-rouge&quot;&gt;\( ... \)&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
-
-&lt;p&gt;To enable MathJax support be sure Kramdown is your Markdown flavor of choice and MathJax is set to true in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;markdown: kramdown
-mathjax: true
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering: 
-\\[ \frac{1}{n^{2}} \\]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Here is an example MathJax inline rendering \( 1/x^{2} \), and here is a block rendering: 
-\[ \frac{1}{n^{2}} \]&lt;/p&gt;
-
-&lt;p&gt;The only thing to look out for is the escaping of the backslash when using markdown, so the delimiters become &lt;code class=&quot;highlighter-rouge&quot;&gt;\\[ ... \\]&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;\\( ... \\)&lt;/code&gt; for inline and block maths respectively.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{align*}
-  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
-      \vdots &amp; \ddots &amp; \vdots \\
-      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*} %]]&gt;&lt;/script&gt;</content><category term="markdown" /><category term="mathjax" /><category term="example" /><category term="test" /><category term="jekyll" /><summary>MathJax Example for Moon Jekyll Theme.</summary></entry><entry><title>Markup: Another Post with Images</title><link href="https://zachary2wave.github.io/markup-more-images/" rel="alternate" type="text/html" title="Markup: Another Post with Images" /><published>2014-05-22T00:00:00+08:00</published><updated>2014-05-22T00:00:00+08:00</updated><id>https://zachary2wave.github.io/markup-more-images</id><content type="html" xml:base="https://zachary2wave.github.io/markup-more-images/">&lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code class=&quot;highlighter-rouge&quot;&gt;figure&lt;/code&gt; with the appropriate &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt;. Each instance of &lt;code class=&quot;highlighter-rouge&quot;&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
-
-&lt;h3 id=&quot;figures-for-images-or-video&quot;&gt;Figures (for images or video)&lt;/h3&gt;
-
-&lt;h4 id=&quot;one-up&quot;&gt;One Up&lt;/h4&gt;
-
-&lt;figure&gt;
-	&lt;a href=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;&lt;a href=&quot;http://www.flickr.com/photos/80901381@N04/7758832526/&quot; title=&quot;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&quot;&gt;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&lt;/a&gt;.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
-
-&lt;h4 id=&quot;two-up&quot;&gt;Two Up&lt;/h4&gt;
-
-&lt;p&gt;Apply the &lt;code class=&quot;highlighter-rouge&quot;&gt;half&lt;/code&gt; class like so to display two images side by side that share the same caption.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;half&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-1-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-1.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-2-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-2.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these two images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.JPG&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpeg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Two images.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h4 id=&quot;three-up&quot;&gt;Three Up&lt;/h4&gt;
-
-&lt;p&gt;Apply the &lt;code class=&quot;highlighter-rouge&quot;&gt;third&lt;/code&gt; class like so to display three images side by side that share the same caption.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;third&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-1.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-2.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-3.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these three images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
-	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;alternative-way&quot;&gt;Alternative way&lt;/h3&gt;
-
-&lt;p&gt;Another way to achieve the same result is to include &lt;code class=&quot;highlighter-rouge&quot;&gt;gallery&lt;/code&gt; Liquid template. In this case you
-don’t have to write any HTML tags – just copy a small block of code, adjust the parameters (see below)
-and fill the block with any number of links to images. You can mix relative and external links.&lt;/p&gt;
-
-&lt;p&gt;Here is the block you might want to use:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;images&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
-	http://placehold.it/600x300.jpg
-	http://placehold.it/600x300.jpg
-	http://placehold.it/600x300.jpg
-&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gallery&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;images&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;images&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;caption&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Test images&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;cols&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Parameters:&lt;/p&gt;
+&lt;h3 id=&quot;and-a-nested-list&quot;&gt;And a nested list:&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;caption&lt;/code&gt;: Sets the caption under the gallery (see &lt;code class=&quot;highlighter-rouge&quot;&gt;figcaption&lt;/code&gt; HTML tag above);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cols&lt;/code&gt;: Sets the number of columns of the gallery.
-Available values: [1..3].&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It will look something like this:&lt;/p&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-    
-    &lt;a href=&quot;http://placehold.it/600x300.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;http://placehold.it/600x300.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;http://placehold.it/600x300.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;figcaption&gt;Test images&lt;/figcaption&gt;
-&lt;/figure&gt;</content><category term="sample post" /><category term="images" /><category term="test" /><summary>Examples and code for displaying images in posts.</summary></entry><entry><title>Markup: HTML Tags and Formatting</title><link href="https://zachary2wave.github.io/markup-html-tags-and-formatting/" rel="alternate" type="text/html" title="Markup: HTML Tags and Formatting" /><published>2014-01-11T00:00:00+08:00</published><updated>2014-01-11T00:00:00+08:00</updated><id>https://zachary2wave.github.io/markup-html-tags-and-formatting</id><content type="html" xml:base="https://zachary2wave.github.io/markup-html-tags-and-formatting/">&lt;p&gt;A variety of common markup showing how the theme styles them.&lt;/p&gt;
-
-&lt;h1 id=&quot;header-one&quot;&gt;Header one&lt;/h1&gt;
-
-&lt;h2 id=&quot;header-two&quot;&gt;Header two&lt;/h2&gt;
-
-&lt;h3 id=&quot;header-three&quot;&gt;Header three&lt;/h3&gt;
-
-&lt;h4 id=&quot;header-four&quot;&gt;Header four&lt;/h4&gt;
-
-&lt;h5 id=&quot;header-five&quot;&gt;Header five&lt;/h5&gt;
-
-&lt;h6 id=&quot;header-six&quot;&gt;Header six&lt;/h6&gt;
-
-&lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h2&gt;
-
-&lt;p&gt;Single line blockquote:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Stay hungry. Stay foolish.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Multi line blockquote with a cite reference:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I’m actually as proud of the things we haven’t done as the things I have done. Innovation is saying no to 1,000 things.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p class=&quot;small&quot;&gt;&lt;cite&gt;Steve Jobs&lt;/cite&gt; — Apple Worldwide Developers’ Conference, 1997&lt;/p&gt;
-
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Employee&lt;/th&gt;
-      &lt;th&gt;Salary&lt;/th&gt;
-      &lt;th&gt; &lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;#&quot;&gt;John Doe&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;$1&lt;/td&gt;
-      &lt;td&gt;Because that’s all Steve Jobs needed for a salary.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;#&quot;&gt;Jane Doe&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;$100K&lt;/td&gt;
-      &lt;td&gt;For all the blogging she does.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;#&quot;&gt;Fred Bloggs&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;$100M&lt;/td&gt;
-      &lt;td&gt;Pictures are worth a thousand words, right? So Jane × 1,000.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;#&quot;&gt;Jane Bloggs&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;$100B&lt;/td&gt;
-      &lt;td&gt;With hair like that?! Enough said.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Header1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Header3&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Foot1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Foot2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Foot3&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;definition-lists&quot;&gt;Definition Lists&lt;/h2&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;Definition List Title&lt;/dt&gt;
-  &lt;dd&gt;Definition list division.&lt;/dd&gt;
-  &lt;dt&gt;Startup&lt;/dt&gt;
-  &lt;dd&gt;A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.&lt;/dd&gt;
-  &lt;dt&gt;#dowork&lt;/dt&gt;
-  &lt;dd&gt;Coined by Rob Dyrdek and his personal body guard Christopher “Big Black” Boykins, “Do Work” works as a self motivator, to motivating your friends.&lt;/dd&gt;
-  &lt;dt&gt;Do It Live&lt;/dt&gt;
-  &lt;dd&gt;I’ll let Bill O’Reilly &lt;a href=&quot;https://www.youtube.com/watch?v=O_HyZ5aW76c&quot; title=&quot;We&#39;ll Do It Live&quot;&gt;explain&lt;/a&gt; this one.&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;h2 id=&quot;unordered-lists-nested&quot;&gt;Unordered Lists (Nested)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;List item one
+  &lt;li&gt;level 1 item
     &lt;ul&gt;
-      &lt;li&gt;List item one
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item
         &lt;ul&gt;
-          &lt;li&gt;List item one&lt;/li&gt;
-          &lt;li&gt;List item two&lt;/li&gt;
-          &lt;li&gt;List item three&lt;/li&gt;
-          &lt;li&gt;List item four&lt;/li&gt;
+          &lt;li&gt;level 3 item&lt;/li&gt;
+          &lt;li&gt;level 3 item&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;List item two&lt;/li&gt;
-      &lt;li&gt;List item three&lt;/li&gt;
-      &lt;li&gt;List item four&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;List item two&lt;/li&gt;
-  &lt;li&gt;List item three&lt;/li&gt;
-  &lt;li&gt;List item four&lt;/li&gt;
+  &lt;li&gt;level 1 item
+    &lt;ul&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;level 1 item
+    &lt;ul&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;level 1 item&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;ordered-list-nested&quot;&gt;Ordered List (Nested)&lt;/h2&gt;
+&lt;h3 id=&quot;small-image&quot;&gt;Small image&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://assets-cdn.github.com/images/icons/emoji/octocat.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;large-image&quot;&gt;Large image&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://guides.github.com/activities/hello-world/branching.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;definition-lists&quot;&gt;Definition lists&lt;/h3&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Name&lt;/dt&gt;
+  &lt;dd&gt;Godzilla&lt;/dd&gt;
+  &lt;dt&gt;Born&lt;/dt&gt;
+  &lt;dd&gt;1952&lt;/dd&gt;
+  &lt;dt&gt;Birthplace&lt;/dt&gt;
+  &lt;dd&gt;Japan&lt;/dd&gt;
+  &lt;dt&gt;Color&lt;/dt&gt;
+  &lt;dd&gt;Green&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this. Or is it?
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The final element.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;hydejack-exclusives&quot;&gt;Hydejack Exclusives&lt;/h2&gt;
+&lt;p&gt;Hydejack offers a few additional features to markup your markdown.
+Don’t worry, these are merely CSS classes added with kramdown’s &lt;code class=&quot;highlighter-rouge&quot;&gt;{:.my-class}&lt;/code&gt; syntax,
+so that your posts remain compatible with other Jekyll themes.&lt;/p&gt;
+
+&lt;h3 id=&quot;message-boxes&quot;&gt;Message Boxes&lt;/h3&gt;
+&lt;p class=&quot;message&quot;&gt;You can add a message box by adding the &lt;code class=&quot;highlighter-rouge&quot;&gt;message&lt;/code&gt; class to a paragraph.&lt;/p&gt;
+
+&lt;h3 id=&quot;faded-text&quot;&gt;Faded text&lt;/h3&gt;
+&lt;p class=&quot;faded&quot;&gt;You can add gray text by adding the &lt;code class=&quot;highlighter-rouge&quot;&gt;faded&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;h3 id=&quot;lead-paragraphs&quot;&gt;Lead Paragraphs&lt;/h3&gt;
+&lt;p class=&quot;lead&quot;&gt;You can add large text by adding the &lt;code class=&quot;highlighter-rouge&quot;&gt;lead&lt;/code&gt; class to a paragraph.&lt;/p&gt;
+
+&lt;h3 id=&quot;lead-quotes&quot;&gt;Lead Quotes&lt;/h3&gt;
+&lt;blockquote class=&quot;lead&quot;&gt;
+  &lt;p&gt;You can make a quote “pop out” by adding the &lt;code class=&quot;highlighter-rouge&quot;&gt;lead&lt;/code&gt; class to a quote.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;lead-images&quot;&gt;Lead Images&lt;/h3&gt;
+&lt;p&gt;You can make an image span the full width by adding the &lt;code class=&quot;highlighter-rouge&quot;&gt;lead&lt;/code&gt; class:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://placehold.it/800x100&quot; alt=&quot;Full-width image&quot; class=&quot;lead&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
+&lt;p&gt;Large (data) tables:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Default aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
+      &lt;th&gt;Default aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
+      &lt;th&gt;Default aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
+      &lt;th&gt;Default aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;First body part&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
+      &lt;td&gt;First body part&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
+      &lt;td&gt;First body part&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
+      &lt;td&gt;First body part&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Second line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
+      &lt;td&gt;Second line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
+      &lt;td&gt;Second line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
+      &lt;td&gt;Second line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Third line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;Third line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;Third line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;Third line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Second body&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;Second body&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;Second body&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;Second body&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2 line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;2 line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;2 line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;2 line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Footer row&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;Footer row&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;Footer row&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;Footer row&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Prevent line breaks within cells by adding the &lt;code class=&quot;highlighter-rouge&quot;&gt;scroll-table&lt;/code&gt; class to a table:&lt;/p&gt;
+
+&lt;table class=&quot;scroll-table&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Default aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
+      &lt;th&gt;Default aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
+      &lt;th&gt;Default aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
+      &lt;th&gt;Default aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;First body part&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
+      &lt;td&gt;First body part&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
+      &lt;td&gt;First body part&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
+      &lt;td&gt;First body part&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Second line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
+      &lt;td&gt;Second line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
+      &lt;td&gt;Second line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
+      &lt;td&gt;Second line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Third line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;Third line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;Third line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;Third line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Second body&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;Second body&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;Second body&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;Second body&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2 line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;2 line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;2 line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;2 line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Footer row&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;Footer row&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;Footer row&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt;Footer row&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Flip the table by adding the &lt;code class=&quot;highlighter-rouge&quot;&gt;flip-table&lt;/code&gt; class to a table:&lt;/p&gt;
+
+&lt;table class=&quot;flip-table&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Default aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
+      &lt;th&gt;Default aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
+      &lt;th&gt;Default aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
+      &lt;th&gt;Default aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;First body part&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
+      &lt;td&gt;First body part&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
+      &lt;td&gt;First body part&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
+      &lt;td&gt;First body part&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Second line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
+      &lt;td&gt;Second line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
+      &lt;td&gt;Second line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
+      &lt;td&gt;Second line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Third line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;Third line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;Third line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;Third line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;4th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;4th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;4th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;5th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;5th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;5th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;6th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;6th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;6th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;7th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;7th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;7th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;8th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;8th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;8th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;9th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;9th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;9th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;10th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;10th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+      &lt;td&gt;10th line&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;math&quot;&gt;Math&lt;/h3&gt;
+&lt;p&gt;Inline math &lt;code class=&quot;MathJax_Preview&quot;&gt;f(x) = x^2&lt;/code&gt;&lt;script type=&quot;math/tex&quot;&gt;f(x) = x^2&lt;/script&gt; and math blocks:&lt;/p&gt;
+
+&lt;pre class=&quot;MathJax_Preview&quot;&gt;&lt;code&gt;\begin{aligned}
+  \phi(x,y) &amp;amp;= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
+            &amp;amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
+            &amp;amp;= (x_1, \ldots, x_n)
+               \left(\begin{array}{ccc}
+                 \phi(e_1, e_1)  &amp;amp; \cdots &amp;amp; \phi(e_1, e_n) \\
+                 \vdots          &amp;amp; \ddots &amp;amp; \vdots         \\
+                 \phi(e_n, e_1)  &amp;amp; \cdots &amp;amp; \phi(e_n, e_n)
+               \end{array}\right)
+               \left(\begin{array}{c}
+                 y_1    \\
+                 \vdots \\
+                 y_n
+               \end{array}\right)
+\end{aligned}&lt;/code&gt;&lt;/pre&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{aligned}
+  \phi(x,y) &amp;= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
+            &amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
+            &amp;= (x_1, \ldots, x_n)
+               \left(\begin{array}{ccc}
+                 \phi(e_1, e_1)  &amp; \cdots &amp; \phi(e_1, e_n) \\
+                 \vdots          &amp; \ddots &amp; \vdots         \\
+                 \phi(e_n, e_1)  &amp; \cdots &amp; \phi(e_n, e_n)
+               \end{array}\right)
+               \left(\begin{array}{c}
+                 y_1    \\
+                 \vdots \\
+                 y_n
+               \end{array}\right)
+\end{aligned} %]]&gt;&lt;/script&gt;</content><author><name>Xiangyu Zhang</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">Text can be bold, italic, or strikethrough.</summary></entry><entry><title type="html">Hydejack’s New Design</title><link href="http://localhost:4000/2017/11/17/hydejacks-new-design/" rel="alternate" type="text/html" title="Hydejack's New Design" /><published>2017-11-17T00:00:00+08:00</published><updated>2017-11-17T00:00:00+08:00</updated><id>http://localhost:4000/2017/11/17/hydejacks-new-design</id><content type="html" xml:base="http://localhost:4000/2017/11/17/hydejacks-new-design/">&lt;p&gt;While v7 brings an &lt;a href=&quot;/CHANGELOG/#v700&quot;&gt;insane amount of new stuff&lt;/a&gt;, the most notable change is the new background image.
+It is no longer &lt;em&gt;anti-selling&lt;/em&gt; the theme.
+The old image was a blurred version of Napoleon Bonaparte, which was just… weird. I could tell the story of how this came to be,
+but I’d rather show you the new and improved background image.&lt;/p&gt;
+
+&lt;h2 id=&quot;new-background-image&quot;&gt;New background image&lt;/h2&gt;
+&lt;p&gt;Yes, it’s an aerial shot of a beach (&lt;a href=&quot;https://duckduckgo.com/?q=ios+11+background&amp;amp;t=ffab&amp;amp;iax=images&amp;amp;ia=images&quot;&gt;so hot right now&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/caleb-george.jpg&quot; alt=&quot;Hydejack's background image&quot; class=&quot;lead&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Q: What has this picture to do with Hydejack?
+Nothing really, I just like how it looks.
+However: Boat → Pirates → Hijacking → Hydejack (illuminati confirmed)&lt;/p&gt;
+
+&lt;p&gt;Even though it is a free image from &lt;a href=&quot;https://unsplash.com/&quot;&gt;Unsplash&lt;/a&gt; (…), it’s unique in the sense that
+I’ve modified it so it looks better inside the sidebar.
+Specifically, I’ve straightened out the beach and rotated the boat so that it sits at a nice 90 degree angle.&lt;/p&gt;
+
+&lt;p&gt;For comparison, here is the non-euclidean mess the &lt;a href=&quot;https://unsplash.com/photos/AtvuPUenaeI&quot;&gt;original photo&lt;/a&gt; was. Pretty OCD, I know.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/caleb-george-old.jpg&quot; alt=&quot;Original photo&quot; class=&quot;lead&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;new-color-palette&quot;&gt;New color palette&lt;/h2&gt;
+&lt;p&gt;I’ve extracted the major colors from the background image, which now form Hydejack’s color palette:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/COLOURlovers.com-Hydejack.png&quot; alt=&quot;Hydejacks's color palette&quot; style=&quot;border: 1px solid #ddd&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;new-logo&quot;&gt;New logo&lt;/h2&gt;
+&lt;p&gt;Hydejack also has a new logo, which is based on the new color palette.
+It also features the best font on Google Fonts, and probably the world: &lt;a href=&quot;https://fonts.google.com/specimen/Roboto+Slab&quot;&gt;Roboto Slab&lt;/a&gt;
+(which is to say, I like it a lot).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/icons/icon.png&quot; alt=&quot;Hydejack's logo&quot; /&gt;&lt;/p&gt;</content><author><name>Xiangyu Zhang</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">While v7 brings an insane amount of new stuff, the most notable change is the new background image. It is no longer anti-selling the theme. The old image was a blurred version of Napoleon Bonaparte, which was just… weird. I could tell the story of how this came to be, but I’d rather show you the new and improved background image.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/caleb-george.jpg" /></entry><entry><title type="html">Better Gem Support (v6.5)</title><link href="http://localhost:4000/2017/07/27/better-gem-support/" rel="alternate" type="text/html" title="Better Gem Support (v6.5)" /><published>2017-07-27T00:00:00+08:00</published><updated>2017-07-27T00:00:00+08:00</updated><id>http://localhost:4000/2017/07/27/better-gem-support</id><content type="html" xml:base="http://localhost:4000/2017/07/27/better-gem-support/">&lt;p&gt;This maintenance release includes various quality-of-life improvements,
+especially when using the gem-based version of the theme.
+These changes come in handy when using Hydejack for a quick (project-) page:
+The &lt;code class=&quot;highlighter-rouge&quot;&gt;home&lt;/code&gt; layout, which is used when using &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt;,
+is now a proper layout that displays a few posts/pages below the regular content,
+and it is again possible to define an author in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;
+without setting up a &lt;code class=&quot;highlighter-rouge&quot;&gt;_data&lt;/code&gt; directory (for more, see blow).&lt;/p&gt;
+
+&lt;p&gt;Version 6.5 also includes smaller design adjustments.
+Most notably, the default font is now Noto Sans.
+With the benefit of hindsight,
+using a serif font in combination with the slab headings feels more like a bug in the design than anything else.
+However, should you be happy with Noto Serif (the previous default font), there is no need to worry
+— this only effects the default setting.&lt;/p&gt;
+
+&lt;p&gt;For the full patch notes, read on.&lt;/p&gt;
+
+&lt;h2 id=&quot;patch-notes&quot;&gt;Patch Notes&lt;/h2&gt;
+&lt;h3 id=&quot;added&quot;&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hydejack now uses additional Jekyll plugins by default, which make working with GitHub more convenient.
+They have been added to the &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.
+Note that existing users need to update their &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;:&lt;/p&gt;
+
+    &lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;gems&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;jekyll-default-layout&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# new&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;jekyll-feed&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;jekyll-optional-front-matter&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# new&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;jekyll-paginate&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;jekyll-redirect-from&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;jekyll-relative-links&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# new&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;jekyll-sitemap&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Added &lt;code class=&quot;highlighter-rouge&quot;&gt;licenses&lt;/code&gt; folder that includes the full license texts of licenses mentioned in &lt;code class=&quot;highlighter-rouge&quot;&gt;NOTICE.md&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can, once again, define the author in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.
+Using &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/authors.yml&lt;/code&gt; is still recommended (and takes precedence),
+but this option is more convenient when setting up a quick (project-) page using the gem-based theme.
+Also, a mini-version of &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/social.yml&lt;/code&gt; can be provided as part &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;, e.g.:&lt;/p&gt;
+
+    &lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;social&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://github.com/qwtel/hydejack&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;npm&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://www.npmjs.com/package/hydejack&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;download&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://github.com/qwtel/hydejack/archive/v7.5.2.zip&lt;/span&gt;
+
+&lt;span class=&quot;na&quot;&gt;data_social&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;GitHub&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;icon-github&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;npm&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;npm&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;icon-npm&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;download&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Download&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;icon-box-add&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;A download icon has been added to the default icon font and &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/social.yml&lt;/code&gt; has been updated.&lt;/li&gt;
+  &lt;li&gt;Added &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes/my-scripts.html&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;_sass/my-inline.scss&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;_sass/my-style.scss&lt;/code&gt; to make it easier to add custom scripts and styles without modifying the source. This is especially handy when using the gem-based version of the theme.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;changed&quot;&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Loading web fonts now starts earlier and content download no longer blocks
+swapping out the fallback font for the new font.
+Previously, a page containing lots of images could have delayed displaying the web fonts significantly.&lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;home&lt;/code&gt; layout no longer contains a message suggesting that you don’t use it.&lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;home&lt;/code&gt; layout now shows up to 5 blog posts and up to 5 pages blow the regular content.&lt;/li&gt;
+  &lt;li&gt;The version history has been moved from &lt;code class=&quot;highlighter-rouge&quot;&gt;docs/&amp;lt;version&amp;gt;/versions.md&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;CHANGELOG.md&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;The license notices have been moved from &lt;code class=&quot;highlighter-rouge&quot;&gt;docs/&amp;lt;version&amp;gt;/licenses.md&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;NOTICE.md&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Updated gem and npm dependencies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;design&quot;&gt;Design&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The default font has been changed from “Noto Serif” to “Noto Sans”.
+If you have a &lt;code class=&quot;highlighter-rouge&quot;&gt;font&lt;/code&gt; entry in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;, this will have no effect.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;nap.jpg&lt;/code&gt; is no longer used as default background image in the gem-based theme.&lt;/li&gt;
+  &lt;li&gt;The sidebar content width is now limited to the width of the sidebar (this only effects large screens).&lt;/li&gt;
+  &lt;li&gt;Project cards and pagination buttons now have slightly rounded borders for a less “rigid” look.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;how-to-restore-the-old-styles&quot;&gt;How to restore the old styles&lt;/h4&gt;
+&lt;p&gt;If you would like to use the old font, add the following to &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;font_heading&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Roboto&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Slab',&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Helvetica,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Arial,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;sans-serif&quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;font&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;         &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Noto&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Serif',&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Georgia,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;serif&quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;google_fonts&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Roboto+Slab:700|Noto+Serif:400,400i,700,700i&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you were relying on the default setting for the background image, add the following to &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/hydejack/assets/img/nap.jpg&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Note that you have to replace &lt;code class=&quot;highlighter-rouge&quot;&gt;/hydejack&lt;/code&gt; with your &lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;To restore the old sidebar, open (or create) &lt;code class=&quot;highlighter-rouge&quot;&gt;_sass/my-inline.scss&lt;/code&gt; and add the following:&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;screen&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.sidebar-sticky&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To remove the border radius, open (or create) &lt;code class=&quot;highlighter-rouge&quot;&gt;_sass/my-inline.scss&lt;/code&gt; and add the following:&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.card&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.pagination-item&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;border-radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;!important&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Xiangyu Zhang</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">This maintenance release includes various quality-of-life improvements, especially when using the gem-based version of the theme. These changes come in handy when using Hydejack for a quick (project-) page: The home layout, which is used when using jekyll new, is now a proper layout that displays a few posts/pages below the regular content, and it is again possible to define an author in _config.yml without setting up a _data directory (for more, see blow).</summary></entry><entry><title type="html">Related Projects and Data Tables (v6.4)</title><link href="http://localhost:4000/2017/06/21/related-projects-and-data-tables/" rel="alternate" type="text/html" title="Related Projects and Data Tables (v6.4)" /><published>2017-06-21T00:00:00+08:00</published><updated>2017-06-21T00:00:00+08:00</updated><id>http://localhost:4000/2017/06/21/related-projects-and-data-tables</id><content type="html" xml:base="http://localhost:4000/2017/06/21/related-projects-and-data-tables/">&lt;p&gt;In this release I’ve added a “Other Projects” section to the bottom of each project page,
+making it easier for users to navigate through your collection and discover other projects.
+Also, it’s now possible to display larger (data-) tables that were previously cut off (especially on mobile devices).&lt;/p&gt;
+
+&lt;p&gt;For more on how to add tables, see the new section in &lt;a href=&quot;/docs/7.5.2/writing/&quot;&gt;docs/writing&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Smaller changes include a reduced usage of horizontal lines and a more “semantic” use of &lt;code class=&quot;highlighter-rouge&quot;&gt;hr&lt;/code&gt; elements.
+Specifically, the semantics of the resume layout have been improved.
+This is best visualized when viewing the page with a text browser like &lt;code class=&quot;highlighter-rouge&quot;&gt;w3m&lt;/code&gt;.
+For example, before 6.4 the skills section looked like&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Skills
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Web Development | Level: Master
+
+Keywords:
+
+  • HTML
+  • CSS
+  • Javascript
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Compression | Level: Master
+
+Keywords:
+
+  • Mpeg
+  • MP4
+  • GIF
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;(lots of &lt;code class=&quot;highlighter-rouge&quot;&gt;hr&lt;/code&gt;s, skill level as part of the headline 😕)&lt;/p&gt;
+
+&lt;p&gt;Now it looks like&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Skills
+
+Web Development
+    Level: Master
+    Keywords:
+      □ HTML
+      □ CSS
+      □ Javascript
+Compression
+    Level: Master
+    Keywords:
+      □ Mpeg
+      □ MP4
+      □ GIF
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;(using a &lt;code class=&quot;highlighter-rouge&quot;&gt;dl&lt;/code&gt;, so that &lt;code class=&quot;highlighter-rouge&quot;&gt;Level -&amp;gt; &quot;Master&quot;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Keywords -&amp;gt; ul&lt;/code&gt;, …)&lt;/p&gt;
+
+&lt;p&gt;There’s many more minor changes and fixes that you can read below.&lt;/p&gt;
+
+&lt;h2 id=&quot;patch-notes&quot;&gt;Patch Notes&lt;/h2&gt;
+&lt;h3 id=&quot;minor&quot;&gt;Minor&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Added “Other Projects” section to the bottom of the project layout (similar to “Related Posts”)&lt;/li&gt;
+  &lt;li&gt;Added CSS classes that make viewing larger (data-) tables possible&lt;/li&gt;
+  &lt;li&gt;Added section on tables to &lt;a href=&quot;/docs/7.5.2/writing/&quot;&gt;docs/writing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Reduced use of &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;hr/&amp;gt;&lt;/code&gt; elements, using CSS borders instead.&lt;/li&gt;
+  &lt;li&gt;Improved semantic HTML of resume&lt;/li&gt;
+  &lt;li&gt;Follow favicon best practices and include example icons&lt;/li&gt;
+  &lt;li&gt;Added &lt;code class=&quot;highlighter-rouge&quot;&gt;no_google_fonts&lt;/code&gt; option&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;design&quot;&gt;Design&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Reduced number of horizontal lines, making many layouts feel less “cluttered” (esp. &lt;code class=&quot;highlighter-rouge&quot;&gt;blog&lt;/code&gt; layout)&lt;/li&gt;
+  &lt;li&gt;Made link hover styles consistent across the board&lt;/li&gt;
+  &lt;li&gt;Visually separated &lt;code class=&quot;highlighter-rouge&quot;&gt;thead&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;tbody&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;tfoot&lt;/code&gt; within tables.&lt;/li&gt;
+  &lt;li&gt;Changed RSS and email icons&lt;/li&gt;
+  &lt;li&gt;Removed top margin for consecutive headings, e.g. when using &lt;code class=&quot;highlighter-rouge&quot;&gt;h3&lt;/code&gt; immediately after &lt;code class=&quot;highlighter-rouge&quot;&gt;h2&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fixes&quot;&gt;Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed bug that caused inline math to be moved to the end of a paragraph when dynamically loading a page.&lt;/li&gt;
+  &lt;li&gt;Fixed bug that caused layout to break in IE11.&lt;/li&gt;
+  &lt;li&gt;Fixed bug that caused the project animation to “jump” when using long project titles.&lt;/li&gt;
+  &lt;li&gt;No more empty attributes on &lt;code class=&quot;highlighter-rouge&quot;&gt;img&lt;/code&gt; tags.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Xiangyu Zhang</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">In this release I’ve added a “Other Projects” section to the bottom of each project page, making it easier for users to navigate through your collection and discover other projects. Also, it’s now possible to display larger (data-) tables that were previously cut off (especially on mobile devices).</summary></entry><entry><title type="html">Third Party Scripts (v6.3)</title><link href="http://localhost:4000/2017/06/06/third-party-scripts/" rel="alternate" type="text/html" title="Third Party Scripts (v6.3)" /><published>2017-06-06T00:00:00+08:00</published><updated>2017-06-06T00:00:00+08:00</updated><id>http://localhost:4000/2017/06/06/third-party-scripts</id><content type="html" xml:base="http://localhost:4000/2017/06/06/third-party-scripts/">&lt;p&gt;This release makes including third party plugins easier.
+Until now, the push state approach to loading new pages has been interfering with embedded &lt;code class=&quot;highlighter-rouge&quot;&gt;script&lt;/code&gt; tags.
+This version changes this by simulating the sequential loading of script tags on a fresh page load.&lt;/p&gt;
+
+&lt;p&gt;This approach should work in a majority of cases, but can still cause problems with scripts that can’t be added more than once per page.
+If an issue can’t be resolved, there’s now the option to disable push state by setting &lt;code class=&quot;highlighter-rouge&quot;&gt;disable_push_state: true&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;config.yml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-happening&quot;&gt;What’s happening?&lt;/h2&gt;
+&lt;p&gt;The problem is as follows:
+When the browser encounters a &lt;code class=&quot;highlighter-rouge&quot;&gt;script&lt;/code&gt; tag while parsing a HTML page it will stop (possibly to make a request to fetch
+an external script) and then execute the code before continuing parsing the page
+(it’s easy to how this can make your page really slow, but that’s a different topic).&lt;/p&gt;
+
+&lt;p&gt;In any case, due of this behavior you can do things like include jQuery,
+then run code that depends on jQuery in the next script tag:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;.../jquery.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'#tabs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;someJQueryFunction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// works&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I’d consider this an anti-pattern for the reason mentioned above,
+but it remains common and has the advantage of being easy to understand.&lt;/p&gt;
+
+&lt;p&gt;However, things break when Hydejack dynamically inserts new content into the page.
+It works fine for standard markdown content like &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt; tags,
+but when inserting &lt;code class=&quot;highlighter-rouge&quot;&gt;script&lt;/code&gt; tags the browser will execute them immediately and in parallel,
+because in most cases this is what you’d want.
+However, this means that &lt;code class=&quot;highlighter-rouge&quot;&gt;$('#tabs').someJQueryFunction();&lt;/code&gt; will run while the HTTP request for jQuery is still
+in progress — and we get an error that &lt;code class=&quot;highlighter-rouge&quot;&gt;$&lt;/code&gt; isn’t defined, or similar.&lt;/p&gt;
+
+&lt;p&gt;From this description the solution should be obvious: Insert the &lt;code class=&quot;highlighter-rouge&quot;&gt;script&lt;/code&gt; tags one-by-one,
+to simulate how they would get executed if it was a fresh page request.
+In fact this is how Hydejack is now handling things (and thanks to rxjs’ &lt;code class=&quot;highlighter-rouge&quot;&gt;concatMap&lt;/code&gt; it was easy to implement),
+but unfortunately this is not a magic solution that can fix all problems:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Some scripts may throw when running on the same page twice&lt;/li&gt;
+  &lt;li&gt;Some scripts rely on the document’s &lt;code class=&quot;highlighter-rouge&quot;&gt;load&lt;/code&gt; event, which has fired long before the script was inserted&lt;/li&gt;
+  &lt;li&gt;unkown-unkowns&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But what will “magically” solve all third party script problems, is disabling dynamic page loading altogether,
+for which there’s now an option.
+To make this a slightly less bitter pill to swallow,
+there’s now a CSS-only “intro” animation that looks similar to the dynamic one.
+Maybe you won’t even notice the difference.&lt;/p&gt;
+
+&lt;h2 id=&quot;patch-notes&quot;&gt;Patch Notes&lt;/h2&gt;
+&lt;h3 id=&quot;minor&quot;&gt;Minor&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Support embedding &lt;code class=&quot;highlighter-rouge&quot;&gt;script&lt;/code&gt; tags in markdown content&lt;/li&gt;
+  &lt;li&gt;Add &lt;code class=&quot;highlighter-rouge&quot;&gt;disable_push_state&lt;/code&gt; option to &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Add &lt;code class=&quot;highlighter-rouge&quot;&gt;disable_drawer&lt;/code&gt; option to &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Rename syntax highlighting file to &lt;code class=&quot;highlighter-rouge&quot;&gt;syntax.scss&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Added &lt;a href=&quot;/docs/7.5.2/scripts/&quot;&gt;chapter on third party scripts&lt;/a&gt; to documentation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;design&quot;&gt;Design&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Add subtle intro animation&lt;/li&gt;
+  &lt;li&gt;Rename “Check out X for more” to “See X for more” on welcome* page&lt;/li&gt;
+  &lt;li&gt;Replace “»” with “→” in “read more”-type of links&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fixes&quot;&gt;Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fix default color in gem-based theme&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Xiangyu Zhang</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">This release makes including third party plugins easier. Until now, the push state approach to loading new pages has been interfering with embedded script tags. This version changes this by simulating the sequential loading of script tags on a fresh page load.</summary></entry><entry><title type="html">JavaScripten (v6)</title><link href="http://localhost:4000/2017/05/03/javascripten/" rel="alternate" type="text/html" title="JavaScripten (v6)" /><published>2017-05-03T00:00:00+08:00</published><updated>2017-05-03T00:00:00+08:00</updated><id>http://localhost:4000/2017/05/03/javascripten</id><content type="html" xml:base="http://localhost:4000/2017/05/03/javascripten/">&lt;p&gt;Hydejack has always featured a JavaScript-heavy sidebar, but other than that, JS has been used sparingly.
+This changes with this release, which adds a ton of (optional) code that changes the feel of the theme dramatically.&lt;/p&gt;
+
+&lt;h2 id=&quot;major&quot;&gt;Major&lt;/h2&gt;
+&lt;p&gt;Pages are now loaded and swapped through JavaScript. This has a number of effects.
+First of all, it looks cool, but the animations aren’t just about aesthetics:
+They also help to hide the network time of fetching the next page, making the entire site feel faster.
+At the same time, the &lt;abbr title=&quot;Flash of Unstyled Content&quot;&gt;FOUC&lt;/abbr&gt; introduced in the last release will no longer occur (except on the initial page load).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Most JS is now unified in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_js&lt;/code&gt; directory and written in ES2016.&lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;blog-by-tag&lt;/code&gt; layout has been renamed to &lt;code class=&quot;highlighter-rouge&quot;&gt;list&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public&lt;/code&gt; folder has been renamed to &lt;code class=&quot;highlighter-rouge&quot;&gt;assets&lt;/code&gt; to make the theme compatible with Jekyll’s gem-based themes.&lt;/li&gt;
+  &lt;li&gt;Tags are now supported via Jekyll Collections instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;_data&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;The sidebar can now add links to all kinds of pages.&lt;/li&gt;
+  &lt;li&gt;Categories are now supported.&lt;/li&gt;
+  &lt;li&gt;Author information moved to &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/authors.yml&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Added support for multiple authors.&lt;/li&gt;
+  &lt;li&gt;Using &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-feed&lt;/code&gt; plugin (supported on GitHub Pages) instead of custom solution.&lt;/li&gt;
+  &lt;li&gt;Added &lt;code class=&quot;highlighter-rouge&quot;&gt;about&lt;/code&gt; layout.&lt;/li&gt;
+  &lt;li&gt;Added &lt;code class=&quot;highlighter-rouge&quot;&gt;not-found&lt;/code&gt; layout.&lt;/li&gt;
+  &lt;li&gt;Added &lt;code class=&quot;highlighter-rouge&quot;&gt;redirect&lt;/code&gt; layout&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;See the &lt;a href=&quot;/docs/7.5.2/upgrade/&quot;&gt;the migration guide&lt;/a&gt; for instructions on how to upgrade.&lt;/p&gt;
+
+&lt;h2 id=&quot;minor&quot;&gt;Minor&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;The “accent” font (heading font) is now used for all headings.
+This gives the theme a “bolder” look and was necessary for the animation: link =&amp;gt; heading.&lt;/li&gt;
+  &lt;li&gt;Changed default text font from “PT Serif” to “Noto Serif”.&lt;/li&gt;
+  &lt;li&gt;Added &lt;a href=&quot;/docs/7.5.2/writing/&quot;&gt;CSS classes&lt;/a&gt; for styling markdown content.&lt;/li&gt;
+  &lt;li&gt;Links have a new style.
+They now always display an underline to make the choice of the link color less critical (darker colors were hard to
+distinguish from regular text).&lt;/li&gt;
+  &lt;li&gt;Made social media icons larger and easier to tap.&lt;/li&gt;
+  &lt;li&gt;Social media icons are now also part of the “about” sections of a post.&lt;/li&gt;
+  &lt;li&gt;Added support for a copyright notice at the bottom. Can be set via the config variable &lt;code class=&quot;highlighter-rouge&quot;&gt;copyright&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Changed responsive breakpoints and added support for very large displays.&lt;/li&gt;
+  &lt;li&gt;The site is now printable.&lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;blog&lt;/code&gt; layout now only shows the excerpt instead of the full post.&lt;/li&gt;
+  &lt;li&gt;Links to external pages are now marked with a symbol.&lt;/li&gt;
+  &lt;li&gt;Added margin above social media icons to prevent accidental tapping&lt;/li&gt;
+  &lt;li&gt;Added gem files so that &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt; work&lt;/li&gt;
+  &lt;li&gt;Disabled HTML minification when running via &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Added dingbat to signal end of post&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fixes&quot;&gt;Fixes&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Related posts is no longer blank for posts that do not belong to a category.&lt;/li&gt;
+  &lt;li&gt;Footnotes now use the text version of “leftwards arrow with hook” instead of the emoji on iOS.&lt;/li&gt;
+  &lt;li&gt;Text is no longer invisible while waiting for Google Fonts to load.&lt;/li&gt;
+  &lt;li&gt;Always show scrollbar to prevent layout “jumps”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/qwtel/hydejack/releases/tag/v7.5.2&quot;&gt;Get &lt;em&gt;JavaScripten&lt;/em&gt; on GitHub&lt;/a&gt;&lt;/p&gt;</content><author><name>Xiangyu Zhang</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">Hydejack has always featured a JavaScript-heavy sidebar, but other than that, JS has been used sparingly. This changes with this release, which adds a ton of (optional) code that changes the feel of the theme dramatically.</summary></entry><entry><title type="html">The Fast One (v5)</title><link href="http://localhost:4000/2016/09/17/the-fast-one/" rel="alternate" type="text/html" title="The Fast One (v5)" /><published>2016-09-17T00:00:00+08:00</published><updated>2016-09-17T00:00:00+08:00</updated><id>http://localhost:4000/2016/09/17/the-fast-one</id><content type="html" xml:base="http://localhost:4000/2016/09/17/the-fast-one/">&lt;p&gt;This major release increases page load speed dramatically.
+The page now scores roughly 90/100 on &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fqwtel.com%2Fhydejack%2F&quot;&gt;Google’s PageSpeed Insights&lt;/a&gt; (up from ~50) and
+has a high score on similar tools.&lt;/p&gt;
+
+&lt;p class=&quot;message&quot;&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: This post is outdated and only included for legacy reasons.
+See the &lt;a href=&quot;/docs/7.5.2/&quot; class=&quot;heading flip-title&quot;&gt;Documentation&lt;/a&gt; for up-to-date instructions.&lt;/p&gt;
+
+&lt;p&gt;Most importantly, the critical rendering path is no longer blocked by loading styles or scripts,
+meaning the site becomes visible faster.&lt;/p&gt;
+
+&lt;p&gt;Page load speed matters to Google, but is also &lt;em&gt;very&lt;/em&gt; apparent to visitors with slow internet connections.&lt;/p&gt;
+
+&lt;p&gt;However, as a side effect of these optimizations, the site now has a visible &lt;abbr title=&quot;Flash Of Unstyled Content&quot;&gt;FOUC&lt;/abbr&gt;.
+Future versions might address this,
+but it is the currency in which loading speed is being payed for and can not be fully avoided.&lt;/p&gt;
+
+&lt;h2 id=&quot;major&quot;&gt;Major&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;HTML, CSS and JS served minified.&lt;/li&gt;
+  &lt;li&gt;JS downloading starts only after the rest of the page is rendered.&lt;/li&gt;
+  &lt;li&gt;Critical CSS (above-the-fold) is inlined into the document, the rest is fetched later.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In order to minify the CSS and make it more modular it has been rewritten in SCSS.&lt;/p&gt;
+
+&lt;h2 id=&quot;minor&quot;&gt;Minor&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Colored focus outline in page color&lt;/li&gt;
+  &lt;li&gt;Tabindex for tab navigation&lt;/li&gt;
+  &lt;li&gt;Social media icons easier tappable with finger&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;trivia&quot;&gt;Trivia&lt;/h2&gt;
+
+&lt;p&gt;Not strictly part of the release, but the images have been blurred to increase text readability and
+help with loading speed as well (burred images get compressed by JPG much better).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/qwtel/hydejack/releases&quot;&gt;Get &lt;em&gt;The Fast One&lt;/em&gt; on GitHub&lt;/a&gt;&lt;/p&gt;</content><author><name>Xiangyu Zhang</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">This major release increases page load speed dramatically. The page now scores roughly 90/100 on Google’s PageSpeed Insights (up from ~50) and has a high score on similar tools.</summary></entry><entry><title type="html">Social Media Impocalypse (v4)</title><link href="http://localhost:4000/2016/08/30/social-media-impocalypse/" rel="alternate" type="text/html" title="Social Media Impocalypse (v4)" /><published>2016-08-30T00:00:00+08:00</published><updated>2016-08-30T00:00:00+08:00</updated><id>http://localhost:4000/2016/08/30/social-media-impocalypse</id><content type="html" xml:base="http://localhost:4000/2016/08/30/social-media-impocalypse/">&lt;h2 id=&quot;breaking&quot;&gt;Breaking&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Structure of &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; has changed
+    &lt;ul&gt;
+      &lt;li&gt;Social media usernames are now located under &lt;code class=&quot;highlighter-rouge&quot;&gt;author: social: &amp;lt;platform&amp;gt;: &amp;lt;username&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;disqus&lt;/code&gt; is now a top-level entry (moved from &lt;code class=&quot;highlighter-rouge&quot;&gt;author&lt;/code&gt;).&lt;/li&gt;
+      &lt;li&gt;Now has &lt;code class=&quot;highlighter-rouge&quot;&gt;font&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;font_accent&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;google_fonts&lt;/code&gt; fields that are mandatory.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Now defaults to the &lt;code class=&quot;highlighter-rouge&quot;&gt;blog&lt;/code&gt; layout, old style is available via &lt;code class=&quot;highlighter-rouge&quot;&gt;blog-by-tag&lt;/code&gt; layout, see &lt;code class=&quot;highlighter-rouge&quot;&gt;archive.html&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--more--&gt;
+
+&lt;p class=&quot;message&quot;&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: This post is outdated and only included for legacy reasons.
+See the &lt;a href=&quot;/docs/7.5.2/&quot; class=&quot;heading flip-title&quot;&gt;Documentation&lt;/a&gt; for up-to-date instructions.&lt;/p&gt;
+
+&lt;h2 id=&quot;new-features&quot;&gt;New features&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Added &lt;em&gt;a lot&lt;/em&gt; of social media icons, configurable via &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;New &lt;code class=&quot;highlighter-rouge&quot;&gt;blog&lt;/code&gt; layout. Classic, paginated.&lt;/li&gt;
+  &lt;li&gt;Fonts are configurable via &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;design&quot;&gt;Design&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Link underlines are now fixed-sized for all font sizes (no thicker lines for headlines, etc)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fixes&quot;&gt;Fixes&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Correctly set the meta description field using either the &lt;code class=&quot;highlighter-rouge&quot;&gt;description&lt;/code&gt; field or &lt;code class=&quot;highlighter-rouge&quot;&gt;post.excerpt&lt;/code&gt; as a fallback (used
+to contain the unmodified markdown).&lt;/li&gt;
+  &lt;li&gt;Fixed various URL bugs relating to &lt;code class=&quot;highlighter-rouge&quot;&gt;site.baseurl&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;internal&quot;&gt;Internal&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Refactoring, preventing code duplications, heavier usage of &lt;code class=&quot;highlighter-rouge&quot;&gt;includes&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/qwtel/hydejack/releases&quot;&gt;Get &lt;em&gt;Social Media Impocalypse&lt;/em&gt; on GitHub&lt;/a&gt;&lt;/p&gt;</content><author><name>Xiangyu Zhang</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">Breaking Structure of _config.yml has changed Social media usernames are now located under author: social: &amp;lt;platform&amp;gt;: &amp;lt;username&amp;gt;. disqus is now a top-level entry (moved from author). Now has font, font_accent and google_fonts fields that are mandatory. Now defaults to the blog layout, old style is available via blog-by-tag layout, see archive.html.</summary></entry><entry><title type="html">Introducing Hydejack (v3)</title><link href="http://localhost:4000/2016/03/08/introducing-hydejack/" rel="alternate" type="text/html" title="Introducing Hydejack (v3)" /><published>2016-03-08T00:00:00+08:00</published><updated>2016-03-08T00:00:00+08:00</updated><id>http://localhost:4000/2016/03/08/introducing-hydejack</id><content type="html" xml:base="http://localhost:4000/2016/03/08/introducing-hydejack/">&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+&lt;p&gt;Unlike Hyde, it’s very opinionated about how you are going to use it.&lt;/p&gt;
+
+&lt;p&gt;Features include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Touch-enabled sidebar / drawer for mobile, including fallback when JS is disabled.&lt;/li&gt;
+  &lt;li&gt;Github Pages compatible tag support based on &lt;a href=&quot;http://www.minddust.com/post/tags-and-categories-on-github-pages/&quot;&gt;this post&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Customizable link color and sidebar image, per-site, per-tag and per-post.&lt;/li&gt;
+  &lt;li&gt;Optional author section at the bottom of each post.&lt;/li&gt;
+  &lt;li&gt;Optional comment section powered by Disqus.&lt;/li&gt;
+  &lt;li&gt;Layout for posts grouped by year&lt;/li&gt;
+  &lt;li&gt;Wide array of social media icons on sidebar.&lt;/li&gt;
+  &lt;li&gt;Math blocks via &lt;a href=&quot;https://khan.github.io/KaTeX/&quot;&gt;KaTeX&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--more--&gt;
+
+&lt;p class=&quot;message&quot;&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: This post is outdated and only included for legacy reasons.
+See the &lt;a href=&quot;/docs/7.5.2/&quot; class=&quot;heading flip-title&quot;&gt;Documentation&lt;/a&gt; for up-to-date instructions.&lt;/p&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
+&lt;p&gt;Hydejack is developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/qwtel/hydejack&quot;&gt;GitHub repository&lt;/a&gt;
+for downloads, bug reports, and feature requests.&lt;/p&gt;
+
+&lt;h2 id=&quot;sidebar&quot;&gt;Sidebar&lt;/h2&gt;
+&lt;p&gt;I love the original Hyde theme, but unfortunately the layout isn’t as great on small screens.
+Since the sidebar moves to the top, the user has to scroll down just to read the title of a blog post.&lt;/p&gt;
+
+&lt;p&gt;By using a drawer component I was able to retain the original two column layout.
+It’s possible to move the drawer via touch input (with the help of a little JavaScript).&lt;/p&gt;
+
+&lt;p&gt;Since the background image contributes to the feel of the page I’m letting it peek over the edge a bit.
+This also provides a hint to the user that an interaction is possible.&lt;/p&gt;
+
+&lt;h2 id=&quot;manual&quot;&gt;Manual&lt;/h2&gt;
+
+&lt;h3 id=&quot;configuration&quot;&gt;Configuration&lt;/h3&gt;
+&lt;p&gt;You can configure important aspects of the theme via
+&lt;a href=&quot;https://github.com/qwtel/hydejack/blob/v3/_config.yml&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/a&gt;.
+This includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the blog description in the sidebar&lt;/li&gt;
+  &lt;li&gt;the (optional) author description and photo&lt;/li&gt;
+  &lt;li&gt;default image and link color of the blog&lt;/li&gt;
+  &lt;li&gt;the github and twitter usernames&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-to-change-the-image-and-color-of-a-post&quot;&gt;How to Change the Image and Color of a Post&lt;/h3&gt;
+&lt;p&gt;In the manifest of a blog post, simply add an url as &lt;code class=&quot;highlighter-rouge&quot;&gt;image&lt;/code&gt; and a CSS color as &lt;code class=&quot;highlighter-rouge&quot;&gt;color&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Introducing Hydejack&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://qwtel.com/hydejack/assets/img/hyde.jpg&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;#949667'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;how-to-add-a-new-tag&quot;&gt;How to Add a New Tag&lt;/h3&gt;
+&lt;p&gt;Tags are not meant to be used #instagram #style: #food #goodfood #happy #happylife #didimentionfood #yougetthepoint,
+as each tag requires some setup work. I tend to think of it as categories that can be combined.&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;List item one
-    &lt;ol&gt;
-      &lt;li&gt;List item one
-        &lt;ol&gt;
-          &lt;li&gt;List item one&lt;/li&gt;
-          &lt;li&gt;List item two&lt;/li&gt;
-          &lt;li&gt;List item three&lt;/li&gt;
-          &lt;li&gt;List item four&lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;List item two&lt;/li&gt;
-      &lt;li&gt;List item three&lt;/li&gt;
-      &lt;li&gt;List item four&lt;/li&gt;
-    &lt;/ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add an entry to &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/tags.yml&lt;/code&gt;, where the key represents a slug and provide at least a &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; value and
+optionally &lt;code class=&quot;highlighter-rouge&quot;&gt;image&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;color&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;description&lt;/code&gt;.&lt;/p&gt;
+
+    &lt;p&gt;Example &lt;code class=&quot;highlighter-rouge&quot;&gt;/_data/tags.yml&lt;/code&gt;:&lt;/p&gt;
+
+    &lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;mytag&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;My Tag&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-  &lt;li&gt;List item two&lt;/li&gt;
-  &lt;li&gt;List item three&lt;/li&gt;
-  &lt;li&gt;List item four&lt;/li&gt;
-&lt;/ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make a new file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;tag&lt;/code&gt; folder, using the same name you’ve used as the key / slug and
+change the &lt;code class=&quot;highlighter-rouge&quot;&gt;tag&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;permalink&lt;/code&gt; entries.&lt;/p&gt;
 
-&lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
+    &lt;p&gt;Example &lt;code class=&quot;highlighter-rouge&quot;&gt;/tag/mytag.md&lt;/code&gt;:&lt;/p&gt;
 
-&lt;p&gt;Make any link standout more when applying the &lt;code class=&quot;highlighter-rouge&quot;&gt;.btn&lt;/code&gt; class.&lt;/p&gt;
+    &lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;blog-by-tag&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;mytag&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;permalink&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/tag/mytag/&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tag your blog posts using the &lt;code class=&quot;highlighter-rouge&quot;&gt;tags&lt;/code&gt; key (color and image will only depend on the first tag).&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn_success&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Success Button&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+    &lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Introducing My New Tag&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;mytag&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;othertag&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(optional) Add the tag to the sidebar, by adding it to &lt;code class=&quot;highlighter-rouge&quot;&gt;sidebar_tags&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.
+They will appear in the listed order.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Primary Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn_success&quot;&gt;Success Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn_warning&quot;&gt;Warning Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn_danger&quot;&gt;Danger Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn_info&quot;&gt;Info Button&lt;/a&gt;&lt;/p&gt;
+    &lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;sidebar_tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;mytag&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;othertag&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Xiangyu Zhang</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">Features Unlike Hyde, it’s very opinionated about how you are going to use it. Features include: Touch-enabled sidebar / drawer for mobile, including fallback when JS is disabled. Github Pages compatible tag support based on this post. Customizable link color and sidebar image, per-site, per-tag and per-post. Optional author section at the bottom of each post. Optional comment section powered by Disqus. Layout for posts grouped by year Wide array of social media icons on sidebar. Math blocks via KaTeX.</summary></entry><entry><title type="html">Introducing Hyde</title><link href="http://localhost:4000/2013/12/28/introducing-hyde/" rel="alternate" type="text/html" title="Introducing Hyde" /><published>2013-12-28T00:00:00+08:00</published><updated>2013-12-28T00:00:00+08:00</updated><id>http://localhost:4000/2013/12/28/introducing-hyde</id><content type="html" xml:base="http://localhost:4000/2013/12/28/introducing-hyde/">&lt;p&gt;Hyde is a brazen two-column &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme that pairs a prominent sidebar with uncomplicated content. It’s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Primary Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Success Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn_success}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Warning Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn_warning}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Danger Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn_danger}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Info Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn_info}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p class=&quot;message&quot;&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: This post is outdated and only included for legacy reasons.
+See the &lt;a href=&quot;/docs/7.5.2/&quot;&gt;Documentation&lt;/a&gt; for up-to-date instructions.&lt;/p&gt;
 
-&lt;h2 id=&quot;notices&quot;&gt;Notices&lt;/h2&gt;
+&lt;h3 id=&quot;built-on-poole&quot;&gt;Built on Poole&lt;/h3&gt;
 
-&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; You can also add notices by appending &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.notice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt; to a paragraph.&lt;/p&gt;
+&lt;p&gt;Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by &lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt;. Poole, and every theme built on it (like Hyde here) includes the following:&lt;/p&gt;
 
-&lt;h2 id=&quot;html-tags&quot;&gt;HTML Tags&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&quot;/404&quot;&gt;404&lt;/a&gt;, &lt;a href=&quot;/feed.xml&quot; class=&quot;external&quot;&gt;RSS feed&lt;/a&gt;, posts, and &lt;a href=&quot;/about/&quot;&gt;example page&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Mobile friendly design and development&lt;/li&gt;
+  &lt;li&gt;Easily scalable text and component sizing with &lt;code class=&quot;highlighter-rouge&quot;&gt;rem&lt;/code&gt; units in the CSS&lt;/li&gt;
+  &lt;li&gt;Support for a wide gamut of HTML elements&lt;/li&gt;
+  &lt;li&gt;Related posts (time-based, because Jekyll) below each post&lt;/li&gt;
+  &lt;li&gt;Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h3 id=&quot;address-tag&quot;&gt;Address Tag&lt;/h3&gt;
+&lt;h3 id=&quot;hyde-features&quot;&gt;Hyde features&lt;/h3&gt;
 
-&lt;address&gt;
-  1 Infinite Loop&lt;br /&gt; Cupertino, CA 95014&lt;br /&gt; United States
-&lt;/address&gt;
+&lt;p&gt;In addition to the features of Poole, Hyde adds the following:&lt;/p&gt;
 
-&lt;h3 id=&quot;anchor-tag-aka-link&quot;&gt;Anchor Tag (aka. Link)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sidebar includes support for textual modules and a dynamically generated navigation with active link support&lt;/li&gt;
+  &lt;li&gt;Two orientations for content and sidebar, default (left sidebar) and &lt;a href=&quot;https://github.com/poole/lanyon#reverse-layout&quot;&gt;reverse&lt;/a&gt; (right sidebar), available via &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/poole/hyde#themes&quot;&gt;Eight optional color schemes&lt;/a&gt;, available via &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;This is an example of a &lt;a href=&quot;http://apple.com&quot; title=&quot;Apple&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/poole/hyde#readme&quot;&gt;Head to the readme&lt;/a&gt; to learn more.&lt;/p&gt;
 
-&lt;h3 id=&quot;abbreviation-tag&quot;&gt;Abbreviation Tag&lt;/h3&gt;
+&lt;h3 id=&quot;browser-support&quot;&gt;Browser support&lt;/h3&gt;
 
-&lt;p&gt;The abbreviation &lt;abbr title=&quot;Cascading Style Sheets&quot;&gt;CSS&lt;/abbr&gt; stands for “Cascading Style Sheets”.&lt;/p&gt;
+&lt;p&gt;Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.&lt;/p&gt;
 
-&lt;h3 id=&quot;cite-tag&quot;&gt;Cite Tag&lt;/h3&gt;
+&lt;h3 id=&quot;download&quot;&gt;Download&lt;/h3&gt;
 
-&lt;p&gt;“Code is poetry.” —&lt;cite&gt;Automattic&lt;/cite&gt;&lt;/p&gt;
+&lt;p&gt;Hyde is developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/poole/hyde&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
 
-&lt;h3 id=&quot;code-tag&quot;&gt;Code Tag&lt;/h3&gt;
-
-&lt;p&gt;You will learn later on in these tests that &lt;code class=&quot;highlighter-rouge&quot;&gt;word-wrap: break-word;&lt;/code&gt; will be your best friend.&lt;/p&gt;
-
-&lt;h3 id=&quot;strike-tag&quot;&gt;Strike Tag&lt;/h3&gt;
-
-&lt;p&gt;This tag will let you &lt;strike&gt;strikeout text&lt;/strike&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;emphasize-tag&quot;&gt;Emphasize Tag&lt;/h3&gt;
-
-&lt;p&gt;The emphasize tag should &lt;em&gt;italicize&lt;/em&gt; text.&lt;/p&gt;
-
-&lt;h3 id=&quot;insert-tag&quot;&gt;Insert Tag&lt;/h3&gt;
-
-&lt;p&gt;This tag should denote &lt;ins&gt;inserted&lt;/ins&gt; text.&lt;/p&gt;
-
-&lt;h3 id=&quot;keyboard-tag&quot;&gt;Keyboard Tag&lt;/h3&gt;
-
-&lt;p&gt;This scarcely known tag emulates &lt;kbd&gt;keyboard text&lt;/kbd&gt;, which is usually styled like the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;code&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
-
-&lt;h3 id=&quot;preformatted-tag&quot;&gt;Preformatted Tag&lt;/h3&gt;
-
-&lt;p&gt;This tag styles large blocks of code.&lt;/p&gt;
-
-&lt;pre&gt;
-.post-title {
-	margin: 0 0 5px;
-	font-weight: bold;
-	font-size: 38px;
-	line-height: 1.2;
-	and here&#39;s a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows;
-}
-&lt;/pre&gt;
-
-&lt;h3 id=&quot;quote-tag&quot;&gt;Quote Tag&lt;/h3&gt;
-
-&lt;p&gt;&lt;q&gt;Developers, developers, developers…&lt;/q&gt; –Steve Ballmer&lt;/p&gt;
-
-&lt;h3 id=&quot;strong-tag&quot;&gt;Strong Tag&lt;/h3&gt;
-
-&lt;p&gt;This tag shows &lt;strong&gt;bold text&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;subscript-tag&quot;&gt;Subscript Tag&lt;/h3&gt;
-
-&lt;p&gt;Getting our science styling on with H&lt;sub&gt;2&lt;/sub&gt;O, which should push the “2” down.&lt;/p&gt;
-
-&lt;h3 id=&quot;superscript-tag&quot;&gt;Superscript Tag&lt;/h3&gt;
-
-&lt;p&gt;Still sticking with science and Isaac Newton’s E = MC&lt;sup&gt;2&lt;/sup&gt;, which should lift the 2 up.&lt;/p&gt;
-
-&lt;h3 id=&quot;variable-tag&quot;&gt;Variable Tag&lt;/h3&gt;
-
-&lt;p&gt;This allows you to denote &lt;var&gt;variables&lt;/var&gt;.&lt;/p&gt;</content><category term="content" /><category term="css" /><category term="formatting" /><category term="html" /><category term="markup" /><summary>A variety of common markup showing how the theme styles them.</summary></entry><entry><title>Markup: Image Alignment</title><link href="https://zachary2wave.github.io/markup-image-alignment/" rel="alternate" type="text/html" title="Markup: Image Alignment" /><published>2014-01-10T00:00:00+08:00</published><updated>2014-01-10T00:00:00+08:00</updated><id>https://zachary2wave.github.io/markup-image-alignment</id><content type="html" xml:base="https://zachary2wave.github.io/markup-image-alignment/">&lt;p&gt;Welcome to image alignment! The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of words. Grab a paddle and let’s get started.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://lorempixel.com/580/300&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The image above happens to be &lt;strong&gt;centered&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://lorempixel.com/150/150&quot; alt=&quot;image-left&quot; class=&quot;align-left&quot; /&gt; The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is &lt;strong&gt;left aligned&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;As you can see the should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we’ll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it’s thing. Mission accomplished!&lt;/p&gt;
-
-&lt;p&gt;And now for a &lt;strong&gt;massively large image&lt;/strong&gt;. It also has &lt;strong&gt;no alignment&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://lorempixel.com/1920/900&quot; alt=&quot;no-alignment&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The image above, though 1200px wide, should not overflow the content area. It should remain contained with no visible disruption to the flow of content.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://lorempixel.com/300/200&quot; alt=&quot;image-right&quot; class=&quot;align-right&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;And now we’re going to shift things to the &lt;strong&gt;right align&lt;/strong&gt;. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there — Hey guy! Way to rock that right side. I don’t care what the left aligned image says, you look great. Don’t let anyone else tell you differently.&lt;/p&gt;
-
-&lt;p&gt;In just a bit here, you should see the text start to wrap below the right aligned image and settle in nicely. There should still be plenty of room and everything should be sitting pretty. Yeah — Just like that. It never felt so good to be right.&lt;/p&gt;
-
-&lt;p&gt;And just when you thought we were done, we’re going to do them all over again with captions!&lt;/p&gt;
-
-&lt;figure class=&quot;align-center&quot;&gt;
-  &lt;img src=&quot;http://lorempixel.com/580/300&quot; alt=&quot;&quot; /&gt;
-  &lt;figcaption&gt;Look at 580 x 300 getting some love.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The figure above happens to be &lt;strong&gt;centered&lt;/strong&gt;. The caption also has a link in it, just to see if it does anything funky.&lt;/p&gt;
-
-&lt;figure style=&quot;width: 150px&quot; class=&quot;align-left&quot;&gt;
-  &lt;img src=&quot;http://lorempixel.com/150/150&quot; alt=&quot;&quot; /&gt;
-  &lt;figcaption&gt;Itty-bitty caption.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is &lt;strong&gt;left aligned&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;As you can see the should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we’ll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it’s thing. Mission accomplished!&lt;/p&gt;
-
-&lt;p&gt;And now for a &lt;strong&gt;massively large image&lt;/strong&gt;. It also has &lt;strong&gt;no alignment&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;figure style=&quot;width: 1200px&quot;&gt;
-  &lt;img src=&quot;http://lorempixel.com/1920/900&quot; alt=&quot;&quot; /&gt;
-  &lt;figcaption&gt;Massive image comment for your eyeballs.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The image above, though 1200px wide, should not overflow the content area. It should remain contained with no visible disruption to the flow of content.&lt;/p&gt;
-
-&lt;figure style=&quot;width: 300px&quot; class=&quot;align-right&quot;&gt;
-  &lt;img src=&quot;http://lorempixel.com/300/200&quot; alt=&quot;&quot; /&gt;
-  &lt;figcaption&gt;Feels good to be right all the time.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;And now we’re going to shift things to the &lt;strong&gt;right align&lt;/strong&gt;. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there — Hey guy! Way to rock that right side. I don’t care what the left aligned image says, you look great. Don’t let anyone else tell you differently.&lt;/p&gt;
-
-&lt;p&gt;In just a bit here, you should see the text start to wrap below the right aligned image and settle in nicely. There should still be plenty of room and everything should be sitting pretty. Yeah — Just like that. It never felt so good to be right.&lt;/p&gt;
-
-&lt;p&gt;And that’s a wrap, yo! You survived the tumultuous waters of alignment. Image alignment achievement unlocked!&lt;/p&gt;</content><category term="alignment" /><category term="captions" /><category term="content" /><category term="css" /><category term="image" /><category term="markup" /><summary>Welcome to image alignment! The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of words. Grab a paddle and let’s get started.</summary></entry></feed>
+&lt;p&gt;Thanks!&lt;/p&gt;</content><author><name>&lt;firtname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hyde" /><summary type="html">Hyde is a brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content. It’s based on Poole, the Jekyll butler.</summary></entry></feed>
