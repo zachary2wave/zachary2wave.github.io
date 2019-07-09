@@ -1,9 +1,9 @@
 ---
-layout: about
+layout: compress
 title: Resume
 slug: Resume
 menu: true
-order: 1
+order: 4
 description: >
 
 accent_color: '#268bd2'

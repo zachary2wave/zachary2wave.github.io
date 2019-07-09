@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: base
 title: Resume
 slug: Resume
 menu: true

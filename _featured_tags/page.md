@@ -1,9 +1,9 @@
 ---
-layout: about
+layout: page
 title: Resume
 slug: Resume
 menu: true
-order: 1
+order: 7
 description: >
 
 accent_color: '#268bd2'
