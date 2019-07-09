@@ -201,3 +201,7 @@ paypal:
 download:
   name: Download
   icon: icon-box-add
+WeChat:
+  name: WeChat
+  icon: icon-paypal
+  prepend: "https://www.paypal.me/"

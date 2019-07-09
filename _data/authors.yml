@@ -16,11 +16,11 @@ author1:
 
   # This photo will be used in the about section
   picture:
-    path:            /assets/image/toux.jpg
+    path:            https://github.com/zachary2wave/zachary2wave.github.io/blob/master/assets/img/toux.jpg
     # srcset is optional, but can be used to provide higher res versions for retina displays
-    srcset:
-      1x:            /assets/image/toux.jpg
-      2x:            /assets/image/toux.jpg
+    # srcset:
+      # 1x:            /assets/image/toux.jpg
+      # 2x:            /assets/image/toux.jpg
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
@@ -28,7 +28,7 @@ author1:
   social:
     # twitter:         <username>
     github:          zachary2wave
-    email:           mailto:zachary2wave@163.com or xy_zhang@seu.edu.cn
+    email:           mailto:zachary2wave@163.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>

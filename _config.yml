@@ -35,7 +35,7 @@ tagline:             PHD student; Major in intelligence wireless communication
 keywords:              [reinforcement learning、wireless communication]
 
 # Used by jekyll-seo-tag...
-logo:                  /assets/icons/ICONnew.png
+logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 # Duplication is necessary due to the `jekyll-feed`, `jekyll-seo-tag` plugin.
