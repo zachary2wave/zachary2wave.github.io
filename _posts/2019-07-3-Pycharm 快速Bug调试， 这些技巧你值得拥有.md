@@ -5,7 +5,6 @@ description: >
 Pycharm 快速Bug调试， 这些技巧你值得拥有
 tags: [Zee]
 author: Xiangyu Zhang
-canonical_url: http://hyde.getpoole.com/2012/02/06/whats-jekyll/
 ---
 
 
