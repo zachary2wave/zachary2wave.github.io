@@ -1,7 +1,7 @@
 ---
 layout: base
-title: Resume
-slug: Resume
+title:base
+slug: base
 menu: true
 order: 1
 description: >

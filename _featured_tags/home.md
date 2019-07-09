@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Resume
-slug: Resume
+title:home
+slug: home
 menu: true
-order: 5
+order: 6
 description: >
 
 accent_color: '#268bd2'

@@ -1,7 +1,7 @@
 ---
 layout: redirect
-title: Resume
-slug: Resume
+title: redirect
+slug: redirect
 menu: true
 order: 9
 description: >

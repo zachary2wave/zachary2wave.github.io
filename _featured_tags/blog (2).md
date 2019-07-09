@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Resume
-slug: Resume
+title: blog
+slug: blog
 menu: true
 order: 2
 description: >

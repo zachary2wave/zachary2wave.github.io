@@ -1,7 +1,7 @@
 ---
 layout: compress
-title: Resume
-slug: Resume
+title: compress
+slug: compress
 menu: true
 order: 4
 description: >
