@@ -8,11 +8,9 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
+    Have a faith about yourself, and never regret.
     I am a PHD student in Southeast University, majoring in Intelligent Communications. 
-    I have stepped in electronic information engineering for 7 years, and mastered the basic knowledge of communication, signal processing, intelligence algorithm. 
-    All of these filed foster my sagacious perception in mathematics. 
-    Besides, I have already had excellent skills in MATLAB\Python programming, which established on 50000 lines code experience.
-    Working on the combination of AI and 5G, I, now, have a faith that the future communication will revolutionize the human society and people's lifestyles. 
+
 
   # This photo will be used in the about section
   picture:
