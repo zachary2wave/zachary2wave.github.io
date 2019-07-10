@@ -1,9 +1,9 @@
 ---
-layout: compress
-title: compress
-slug: compress
+layout: about
+title: About
+slug: about
 menu: true
-order: 4
+order: 10
 description: >
 
 accent_color: '#268bd2'
