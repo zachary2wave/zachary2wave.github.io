@@ -57,6 +57,11 @@ copyright:             © 2019. All rights reserved.
 #   - title:             Cookies Policy
 #     href:              /cookies-policy/
 
+
+
+
+
+
 # Format of the permalinks
 permalink:             pretty
 
@@ -72,6 +77,32 @@ paginate_path:         /page-:num/
 accent_image:          /assets/img/moon.jpg
 accent_color:          '#4fb1ba'
 
+defaults:
+  - scope:
+      path: /sidebar/blog.md
+    values:
+      menu: true
+      order: 1
+  - scope:
+      path: /sidebar/projects.md
+    values:
+      menu: true
+      order: 2
+  - scope:
+      path: /sidebar/paper_and_slides.md
+    values:
+      menu: true
+      order: 3
+  - scope:
+      path: /sidebar/resume.md
+    values:
+      menu: true
+      order: 4    
+  - scope:
+      path: /sidebar/about.md
+    values:
+      menu: true
+      order: 5
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://qwtel.com/hydejack/docs/configuration/>
 google_fonts:          Roboto+Slab:700|Noto+Sans:400,400i,700,700i
