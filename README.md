@@ -1,15 +1,14 @@
-# The Blog of Xiangyu Zhang
+# Creative Theme for Jekyll
 
-Welcome.
+A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
 
-I am a PHD student in Southeast University, majoring in Intelligent Communications. 
+Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
+The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
 
-Here, you can find something including some skill and project or paper that I have done in last 8 years after stepped electronic information engineering about wireless communication, signal processing, intelligence algorithm. 
+See it live in action at <https://volny.github.io/creative-theme-jekyll/>
 
-The majority of them was programmed with MATLAB\Python 
+## To use the Creative Theme template in your project
 
-I am now working on the combination of AI(reinforcement learning) and 5G or B5G, especially in UAV-aid communication and resource allocation in UDN
+- Start by adding your info in `_config.yml`
+- In `_layouts/front.html` reorder or remove section as you prefer.
 
-I have a faith that the future communication will revolutionize the human society and people's lifestyles. 
-
-Good luck.
