@@ -1,7 +1,7 @@
 ---
 layout: list
-title: paper and slides
-slug: paper and slides
+title: paper—and-slides
+slug: paper-and-slides
 menu: true
 order: 8
 description: >

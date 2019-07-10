@@ -1,9 +1,9 @@
 ---
-layout: home
-title:home
-slug: home
+layout: list
+title:Project
+slug: Project
 menu: true
-order: 6
+order: 3
 description: >
 
 accent_color: '#268bd2'

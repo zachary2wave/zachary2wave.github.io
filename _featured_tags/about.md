@@ -3,7 +3,7 @@ layout: about
 title: About
 slug: about
 menu: true
-order: 10
+order: 1
 description: >
 
 accent_color: '#268bd2'
