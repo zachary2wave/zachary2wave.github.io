@@ -1,4 +1,5 @@
 # Config
+# Config
 # ========================================================================================
 
 # IMPORTANT: Set the URL of your site.
@@ -177,19 +178,19 @@ include:
 # ========================================================================================
 
 plugins:
-  # - jekyll-avatar
-  # - jekyll-default-layout
+  - jekyll-avatar
+  - jekyll-default-layout
   - jekyll-feed
-  # - jekyll-gist
-  # - jekyll-optional-front-matter
+  - jekyll-gist
+  - jekyll-optional-front-matter
   - jekyll-paginate
-  # - jekyll-readme-index
-  # - jekyll-redirect-from
+   - jekyll-readme-index
+   - jekyll-redirect-from
   - jekyll-relative-links
-  # - jekyll-remote-theme
+   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
-  # - jekyll-titles-from-headings
+   - jekyll-titles-from-headings
 
 # Theme
 # ---------------------------------------------------------------------------------------
