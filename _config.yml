@@ -34,17 +34,17 @@ title: Dr.Z's Blog
 subtitle: 
 description: >- # this means to ignore newlines until "baseurl:"
 
-author: Your Incredible Name
-email: your-email@example.com
+author: Xiangyu Zhang
+email: zachary2wave@163.com
 avatar: assets/images/avatar.jpg
 
 # You'll want to customize url and baseurl for your own site:
 baseurl: "zachary2wave.github.io" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "zachary2wave.github.io" # the base hostname & protocol for your site
 
 # Social settings
 # Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
-twitter_url:
+# twitter_url:
 facebook_url:
 #googleplus_url:
 #instagram_url:
@@ -58,6 +58,6 @@ github_url:
 google_analytics:
 
 # The following settings are NECESSARY for the Prologue theme to run:
-# theme: jekyll-theme-prologue.gemspec
-remote_theme: chrisbobbe/jekyll-theme-prologue
+theme: jekyll-theme-prologue.gemspec
+#remote_theme: chrisbobbe/jekyll-theme-prologue
 collections: [sections]
