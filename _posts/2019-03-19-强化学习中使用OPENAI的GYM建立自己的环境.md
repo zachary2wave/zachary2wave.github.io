@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Building GYM env
+title: 强化学习中使用OPENAI的GYM建立自己环境
 author: zee
 ---
-强化学习中使用OPENAI的GYM建立自己环境：简单的通过GYM建立自己的环境，从而直接利用OPENAI Baseline调用。
+Reinforcement Learning 已经经过了几十年的发展，发展壮大。近些年来，跟随着机器学习的浪潮开始发展壮大。多次战胜围棋冠军柯洁，以及在DOTA2、星际争霸等游戏中超凡表现，成为了众人追捧的明星。目前OPENAI作为世界NO.1的AI研究机构，构建的GYM，成为衡量强化学习算法的标准工具。通过OPENAI 的GYM直接构建自己的环境，从而利用目前现有的算法，直接求解模型。
 
 # 强化学习中使用OPENAI的GYM建立自己环境
 

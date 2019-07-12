@@ -4,7 +4,7 @@ title:  OPENAI Baeslines 详解（一）
 author: Xiangyu Zhang
 ---
 
-
+OPENAI是强化学习的有力推进者，领导者。beseline算法是OPENAI 在github上开源的强化学习标准程序。
 
 
 
