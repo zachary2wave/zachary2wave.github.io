@@ -4,7 +4,7 @@ Welcome.
 
 I am a PHD student in Southeast University, majoring in Intelligent Communications. 
 
-Here, you can find something awesome，maybe skills, projects, slides or paper, which contains  what I have done in last 8 years after stepped electronic information engineering about wireless communication, signal processing, intelligence algorithm. 
+Here, you can find something awesome, maybe skills, projects, slides or paper, which comes from  what I have done in last 8 years after stepped electronic information engineering about wireless communication, signal processing, intelligence algorithm. 
 
 The majority of them was programmed with MATLAB\Python 
 
