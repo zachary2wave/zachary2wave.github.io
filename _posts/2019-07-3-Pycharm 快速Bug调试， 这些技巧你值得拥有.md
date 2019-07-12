@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Pycharm 及 Python 小技巧
 description: >
 Pycharm 快速Bug调试， 这些技巧你值得拥有
