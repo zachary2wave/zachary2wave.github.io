@@ -1,12 +1,22 @@
 ---
-title: Welcome to Jekyll!
+title: About me
 icon: fa-check
-order: 5
+order: 3
 ---
 
-This Jekyll theme lets you build as many of these sections as you want. They live in the _sections folder in your project's root directory. For some examples, see the [GitHub repository](https://github.com/chrisbobbe/jekyll-theme-prologue). Just be sure to add some [frontmatter](https://jekyllrb.com/docs/frontmatter/) to each section.
+# The Blog of Xiangyu Zhang
 
-All sections have titles, which are listed in the site's navigation menu. At the top of each section, the section's title will render by default (e.g., Welcome to Jekyll!). If you want it to show something different (see Intro), add **auto-header: none** to your frontmatter, and add your text in a <h2> tag inside a <header> tag outside the frontmatter. You'll want to give each section an **order** parameter, also in the frontmatter, or it won't know where to put itself and will hide. Icons are from [Font Awesome](https://fontawesome.com/icons).
+Welcome.
 
-You may notice that this section is written in Markdown -- either Markdown or html works!
+I am a PHD student in Southeast University, majoring in Intelligent Communications. 
+
+Here, you can find something awesome, maybe skills, projects, slides or paper, which come from  what I have done in last 8 years after stepped electronic information engineering about wireless communication, signal processing, intelligence algorithm. 
+
+The majority of them was programmed with MATLAB\Python 
+
+I am now working on the combination of AI(reinforcement learning) and 5G or B5G, especially in UAV-aid communication and resource allocation in UDN
+
+I have a faith that the future communication will revolutionize the human society and people's lifestyles. 
+
+Good luck.
 

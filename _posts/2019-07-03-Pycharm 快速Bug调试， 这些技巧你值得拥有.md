@@ -6,7 +6,7 @@ author: Xiangyu Zhang
 
 
 
-
+Pycharm及Python技巧 你值得拥有！
 
 
 
@@ -52,7 +52,24 @@ Bug猿 ，那么断点、Debug 是最好的办法。 通常如果保证低层代
 不知道这个函数干嘛的 ， ctrl+鼠标点一下 看看说明， 不用去查numpy、scipy、matplotlib 官网。
 不知道这个函数输入是什么 ctrl+鼠标点一下 。
 
+### （五）shift ！shift！
+
+连续两次shift ， 查找一切你想要的东西。 不仅仅是ctrl+F中找一些文字，还可以找该Project中其他的任何东西。同时，Pycharm 给 这些东西分门 别类。
+
+### （六）PLug in
+
+File->Settings->Plug in
+
+插件当中，推荐2个 markdown 和  Material Theme UI
+
+Markdown 双栏直接可视 ， 常规的Markdown 编译器 没有特殊，但是也还不错
+
+Material Theme UI 代码高亮 界面好看！谁用谁知道。
+
+
+
 ## Python 技巧
+
 ### try…… expect 语句
 这个语句非常好用，相当于matlab 2018 之后的版本中，增加的在错误之后暂停的功能。
 
