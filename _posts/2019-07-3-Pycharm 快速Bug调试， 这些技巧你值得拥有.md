@@ -6,6 +6,10 @@ author: Xiangyu Zhang
 
 
 
+
+
+
+
 ## Why Python in ML？
 
 Python已经占据深度学习的大半部分江山。虽然也有大量的库和程序使用C 或 JAVA ，但是依然感觉撼动不了Python，在机器学习中的地位。Github上，搜一下Deep Learning，这个数据，自然证明了一切。
