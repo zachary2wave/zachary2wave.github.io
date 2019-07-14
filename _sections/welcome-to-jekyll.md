@@ -10,13 +10,10 @@ Welcome.
 
 I am a PHD student in Southeast University, majoring in Intelligent Communications. 
 
-Here, you can find something awesome, maybe skills, projects, slides or paper, which come from  what I have done in last 8 years after stepped electronic information engineering about wireless communication, signal processing, intelligence algorithm. 
+Here, you can find something awesome, maybe skills, projects, slides or papers, about wireless communication, signal processing, intelligence algorithm, which was accumulate in  in last 8 years, the time from undergraduate to PHD. Most of projects was programmed by MATLAB\Python.
 
-The majority of them was programmed with MATLAB\Python 
+I am now working on the combination of AI(reinforcement learning) and 5G or B5G, especially in UAV-aid communication and resource allocation in heterogeneous network(HetNet).
 
-I am now working on the combination of AI(reinforcement learning) and 5G or B5G, especially in UAV-aid communication and resource allocation in UDN
-
-I have a faith that the future communication will revolutionize the human society and people's lifestyles. 
+I have a faith that the future communication will revolutionize the human society and people's lifestyle. 
 
 Good luck.
-
