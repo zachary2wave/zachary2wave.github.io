@@ -59,8 +59,8 @@ github_url:  https://zachary2wave.github.io
 google_analytics:
 
 # The following settings are NECESSARY for the Prologue theme to run:
-# remote_theme: chrisbobbe/jekyll-theme-prologue
-theme: _sass/jekyll-theme-prologue.scss
+remote_theme: chrisbobbe/jekyll-theme-prologue
+# theme: _sass/jekyll-theme-prologue.scss
 # remote_theme: chrisbobbe/jekyll-theme-prologue
 collections: [sections]
 
