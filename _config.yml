@@ -32,12 +32,12 @@
 # in the templates via {{ site.myvariable }}.
 title:Dr.Z
 subtitle:Xiangyu Zhang
-description: >- # this means to ignore newlines until "baseurl:"
+description:>- # this means to ignore newlines until "baseurl:"
   This is the demo site for a Jekyll theme version of
   HTML5 UP's sleek, responsive site template Prologue.
-author: Xiangyu Zhang
-email: your-email@example.com
-avatar: assets/images/toux.jpg
+author:Xiangyu Zhang
+email:your-email@example.com
+avatar:assets/images/toux.jpg
 
 # You'll want to customize url and baseurl for your own site:
 baseurl:                                 # the subpath of your site, e.g. /blog
@@ -50,7 +50,7 @@ url:          # the base hostname & protocol for your site
 # googleplus_url:
 # instagram_url:
 # linkedin_url:
-github_url:  https://zachary2wave.github.io   
+github_url:https://zachary2wave.github.io   
 # pinterest_url:
 # slack_url:
 # dribbble_url:
@@ -59,9 +59,9 @@ github_url:  https://zachary2wave.github.io
 google_analytics:
 
 # The following settings are NECESSARY for the Prologue theme to run:
-remote_theme: chrisbobbe/jekyll-theme-prologue
+remote_theme:chrisbobbe/jekyll-theme-prologue
 # theme: _sass/jekyll-theme-prologue.scss
 # remote_theme: chrisbobbe/jekyll-theme-prologue
-collections: [sections]
+collections:[sections]
 
-markdown: kramdown
+markdown:kramdown
