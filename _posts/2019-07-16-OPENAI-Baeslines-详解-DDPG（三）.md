@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  OPENAI Baeslines 详解 DDPG（三）
+title:  OPENAI-Baeslines-详解-DDPG（三）
 author: Xiangyu Zhang
 ---
 
