@@ -1,18 +1,15 @@
 ---
 layout: default
 ---
-{%- include header.html -%}
 
-<!-- Main -->
-<div id="main">
-	<!-- Page -->
-	<article class="shade-two">
-	  <div class="container">
-			<header>
-				<h2>{{- page.title -}}</h2>
-				{%- if page.subtitle -%}<p>{{- page.subtitle -}}</p>{%- endif -%}
-			</header>
-	    <p>{{- content -}}</p>
-	  </div>
-	</article>
-</div>
+{% include page-intro.html %}
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        {{ content }}
+      </div>
+    </article>
+  </div>
+</main>

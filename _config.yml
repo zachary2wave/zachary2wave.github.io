@@ -1,20 +1,3 @@
-# Developer's Note: This is a sample _config.yml file offered with
-# jekyll-theme-prologue for your convenience. To use it, move it to your
-# project's root directory. Please note that the following lines are
-# NECESSARY for Prologue to work correctly:
-#
-# theme: jekyll-theme-prologue
-# collections: [sections]
-#
-# They activate the theme and tell Jekyll to find your homepage content
-# in /_sections. Note where "sections" starts with an underscore
-# and where it doesn't. The social settings will make links to
-# Twitter, etc., but only if you give the URL.
-#
-# Also, be sure to customize url and baseurl for your site.
-#
-# ---------------------------------------------------------------
-#
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -30,38 +13,73 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title:Dr.Z
-subtitle:Xiangyu Zhang
-description:>- # this means to ignore newlines until "baseurl:"
-  This is the demo site for a Jekyll theme version of
-  HTML5 UP's sleek, responsive site template Prologue.
-author:Xiangyu Zhang
-email:your-email@example.com
-avatar:assets/images/toux.jpg
+lang: en-US
+title: My Awesome Site
+email:
+description:
+baseurl: # the optional subpath of your site, e.g. "/blog"
+url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+author:
+  name:
+  twitter:
+  picture:
+twitter_username:
+github_username:
+logo: # path of site logo, e.g. "/assets/images/logo.png"
+search: # true, false (default)
+search_full_content: false # true, false (default)
+search_provider: # lunr (default), algolia
+algolia:
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
 
-# You'll want to customize url and baseurl for your own site:
-baseurl:                                 # the subpath of your site, e.g. /blog
-url:          # the base hostname & protocol for your site
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-basically-basic
+plugins: # previsously gems
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+feed:
+  path: atom.xml
 
-# Social settings
-# Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
-# twitter_url:
-# facebook_url:
-# googleplus_url:
-# instagram_url:
-# linkedin_url:
-github_url:https://zachary2wave.github.io   
-# pinterest_url:
-# slack_url:
-# dribbble_url:
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
 
-# Google Analytics Tracking ID goes here:
-google_analytics:
+# Exclude from processing.
+exclude:
+  - .asset-cache
+  - .bundle
+  - .codeclimate.yml
+  - .editorconfig
+  - .gitattributes
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .scss-lint.yml
+  - CHANGELOG
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - Rakefile
+  - README
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - /docs # ignore Basically Basic sample site
+  - /example # ignore Basically Basic dev site
 
-# The following settings are NECESSARY for the Prologue theme to run:
-remote_theme:chrisbobbe/jekyll-theme-prologue
-# theme: _sass/jekyll-theme-prologue.scss
-# remote_theme: chrisbobbe/jekyll-theme-prologue
-collections:[sections]
-
-markdown:kramdown
+# Front Matter Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      read_time: true
