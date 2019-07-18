@@ -6,7 +6,7 @@ author: Xiangyu Zhang
 
 The DDPG（deep deterministic policy gradient）was proposed in 2015 by Deep mind and Davide Silver. This algorithm was established on the architecture of Actor-Critic, which is efficient in dealing with continuous action domain problem. Meanwhile, by choosing action in determinate way, the sample  efficient is greatly improved.
 
-DDPG 深度确定性策略梯度下降算法。[论文链接](<https://arxiv.org/abs/1509.02971>)。采用了Actor-Critic 架构，可以有效的处理连续域的问题。
+DDPG 深度确定性策略梯度下降算法。[论文链接](https://arxiv.org/abs/1509.02971)。采用了Actor-Critic 架构，可以有效的处理连续域的问题。
 
 同时，其actor的确定性动作输出，提高了采样的有效性。
 
@@ -32,7 +32,7 @@ Then, we get the actor-critic algorithm, which update the parameter $\theta$ by
 $$
 \begin{aligned} \nabla_{\theta} J\left(\pi_{\theta}\right) &=\int_{\mathcal{S}} \rho^{\pi}(s) \int_{\mathcal{A}} \nabla_{\theta} \pi_{\theta}(a | s) Q^{\pi}(s, a) \mathrm{d} a \mathrm{d} s \\ &=\mathbb{E}_{s \sim \rho^{\pi}, a \sim \pi_{\theta}}\left[\nabla_{\theta} \log \pi_{\theta}(a | s) Q^{\pi}(s, a)\right] \end{aligned}
 $$
-From the equation above, we need the value function $Q$ and the policy $\pi_{\theta}$. The policy function $\pi_{\theta}$, the actor, evaluates the action. From the [Davide Silver' work](<http://proceedings.mlr.press/v32/silver14.pdf>),  the  Deterministic Policy Gradient is provide being more sample efficient than stochastic case. Just like the Deep Q Network,  we can get the value function $Q$ can be approached by a neural network. 
+From the equation above, we need the value function $Q$ and the policy $\pi_{\theta}$. The policy function $\pi_{\theta}$, the actor, evaluates the action. From the [Davide Silver' work](http://proceedings.mlr.press/v32/silver14.pdf),  the  Deterministic Policy Gradient is provide being more sample efficient than stochastic case. Just like the Deep Q Network,  we can get the value function $Q$ can be approached by a neural network. 
 
 强化学习算法的主要目标是去学习一个策略，来指导agent与环境交互从而得到更好的收益。策略$\pi_{\theta}(a|s)$是以$\theta$为参数的概率分布，代表不同状态下所采用的动作的概率分布。在学习的过程中不断的改变该函数的参数 $\theta$，从而改变应对环境的策略，以得到更好的奖励。当策略固定时，其所遍历的状态动作概率可以表示为
 $$
