@@ -21,8 +21,6 @@
       },
     ]
   },
-
-
   "education": [
     {
       "institution": "哈尔滨工业大学",
@@ -33,7 +31,7 @@
       "courses": [
         "雷达原理","数字通信"
       ]
-    }
+    },
 	{
       "institution": "南京电子技术研究所（中电14所）",
       "area": "通信与信息工程",
@@ -43,7 +41,7 @@
       "courses": [
         "阵列信号处理","压缩感知"
       ]
-    }
+    },
 	{
       "institution": "东南大学",
       "area": "通信工程",
@@ -61,7 +59,7 @@
       "keywords": [
         "My work focus on reducing the Calculated amount and improving the resolution.",
       ]
-    }
+    },
 	    {
       "name": "Underwater weak target detection technology",
       "keywords": [
@@ -75,7 +73,7 @@
       "publisher": "IET Rader conference",
       "releaseDate": "2018-09",
       "summary": "ROBUST DIRECTION-OF-ARRIVAL ESTIMATION BASED ON SPARSE ASYMPTOTIC MINIMUM VARIANCE"
-    }
+    },
 	{
       "name": "Xiangyu Zhang",
       "publisher": "Model Rader",
@@ -101,7 +99,7 @@
         "Array Processing",
       ]
     }
-  ],
+  ]
   
 
 
