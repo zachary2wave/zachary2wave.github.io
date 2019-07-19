@@ -16,8 +16,8 @@
 # lang: en-US
 title:Dr.Z blog
 email:zachary2wave@163.com
-description: 
-baseurl: # the optional subpath of your site, e.g. "/blog"
+description: Xiangyu Zhang(PHD students; Intelligent Wireless Communication) 
+# baseurl: # the optional subpath of your site, e.g. "/blog"
 url:"https://zachary2wave.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name:Xiangyu Zhang
@@ -30,9 +30,9 @@ github_username:zachary2wave
 
 
 logo: /assets/images/ioc.jpg  # path of site logo, e.g. "/assets/images/logo.png"
-search: # true, false (default)
+search:false # true,  (default)
 search_full_content: false # true, false (default)
-search_provider: # lunr (default), algolia
+# search_provider: # lunr (default), algolia
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
