@@ -1,10 +1,18 @@
 ---
 layout: home
 ---
-# About Theme
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+# The Blog of Xiangyu Zhang
 
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
+Welcome.
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+I am a PHD student in Southeast University, majoring in Intelligent Communications. 
+
+Here, you can find something awesome, maybe skills, projects, slides or papers, about wireless communication, signal processing, intelligence algorithm, which was accumulate in  in last 8 years, the time from undergraduate to PHD. Most of projects was programmed by MATLAB\Python.
+
+I am now working on the combination of AI(reinforcement learning) and 5G or B5G, especially in UAV-aid communication and resource allocation in heterogeneous network(HetNet).
+
+I have a faith that the future communication will revolutionize the human society and people's lifestyle. 
+
+Good luck.
+
