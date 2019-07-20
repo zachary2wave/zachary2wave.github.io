@@ -1,7 +1,7 @@
 # Site
-title: Halve
-description: Stylish, Two-Column Jekyll Theme
-url: https://taylantatli.github.io/Halve
+title: Dr.Z Blog
+description: Xiangyu Zhang;PHD student;Reinforcement learning, intelligent wireless communication
+url: https://zachary2wave.github.io
 logo: halve.png                                       # Site logo
 locale: en_US
 
@@ -29,12 +29,12 @@ sass:
 #google-analytics: UA-XXXXX-Y
 
 # Social Links
-#email:             email
+email:             zachary2wave@163.com
 #google.plus:        username
-twitter:            username
+#twitter:            username
 #facebook:           username
-github:             username
-stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+github:             zachary2wave
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
 #instagram:          username
