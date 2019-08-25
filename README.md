@@ -4,7 +4,7 @@ layout: home
 
 # The Blog of Xiangyu Zhang
 
-Welcome.
+Welcome. The pages is *in* *construction*. But,  the recently works are available.    
 
 I am a PHD student in Southeast University, majoring in Intelligent Communications. 
 
