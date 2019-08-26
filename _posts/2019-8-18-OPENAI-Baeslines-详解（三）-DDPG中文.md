@@ -12,7 +12,7 @@ DDPG 深度确定性策略梯度下降算法。[论文链接](https://arxiv.org/
 
 强化学习算法的主要目标是去学习一个策略，来指导agent与环境交互从而得到更好的收益。策略$\pi_{\theta}(a|s)$是以$\theta$为参数的概率分布，代表不同状态下所采用的动作的概率分布。在学习的过程中不断的改变该函数的参数 $\theta$，从而改变应对环境的策略，以得到更好的奖励。当策略固定时，其所遍历的状态动作概率可以表示为
 $$
-{{{p_\theta }} \left( {{{\bf{s}}_1},{{\bf{a}}_1}, \ldots ,{{\bf{s}}_T},{{\bf{a}}_T}} \right)}_{{p_\theta }(\tau )} = p\left( {{{\bf{s}}_1}} \right)\prod\limits_{t = 1}^T {{\pi _\theta }} \left( {{{\bf{a}}_t}|{{\bf{s}}_t}} \right)p\left( {{{\bf{s}}_{t + 1}}|{{\bf{s}}_t},{{\bf{a}}_t}} \right)
+{p_{\theta} \left( {{{\bf{s}}_1},{{\bf{a}}_1}, \ldots ,{{\bf{s}}_T},{{\bf{a}}_T}} \right)}_{{p_\theta }(\tau )} = p\left( {{{\bf{s}}_1}} \right)\prod\limits_{t = 1}^T {{\pi _\theta }} \left( {{{\bf{a}}_t}|{{\bf{s}}_t}} \right)p\left( {{{\bf{s}}_{t + 1}}|{{\bf{s}}_t},{{\bf{a}}_t}} \right)
 $$
 对单个状态而言，其到达概率为：
 $$
