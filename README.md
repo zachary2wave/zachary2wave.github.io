@@ -1,20 +1,30 @@
----
-layout: home
----
+# Moon Jekyll Theme [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
+  
+## `Sorry guys but there will be no update until I buy a new laptop.`
+    
+######(If you like this theme or using it, please give a :star: for motivation.)
 
-# The Blog of Xiangyu Zhang
+**[Moon](https://taylantatli.github.io/Moon)** is a minimal, one column jekyll theme.
 
-Welcome. The pages is *in* *construction*. But,  the recently works are available.    
+## Features
+* Minimal, you can focus on your content
+* Responsive
+* Disqus integration
+* Syntax highlighting
+* Optional post image
+* Social icons
+* Page for sharing projects
+* Optional background image
+* Simple navigation menu
+* MathJax support
 
-I am a PHD student in Southeast University, majoring in Intelligent Communications. 
+## Preview
 
-Here, you can find something awesome, maybe some skills, projects, slides or papers. These things are related to wireless communication, signal processing, intelligence algorithm, which were accumulate in last 8 years, the time from undergraduate to PHD. Most of projects was programmed by MATLAB\Python
+![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
+![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png)
 
-I am now working on the combination of AI(reinforcement learning) and 5G or B5G, especially in UAV-aid communication and resource allocation in heterogeneous network(HetNet).
+See a [live version of Moon](https://taylantatli.github.io/Moon) hosted on GitHub.
 
-I have faith that the future communication will revolutionize the human society and people's lifestyle. 
+## Getting Started
 
-Good luck.
-
-
-
+To learn how to install and use this theme check out the [Setup Guide](https://taylantatli.github.io/Moon/moon-theme/) for more information.
