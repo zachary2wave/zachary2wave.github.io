@@ -1,12 +1,19 @@
 ---
 layout: post
-title:  OPENAI Baeslines 详解（一）
-author: Xiangyu Zhang
+title: "OPENAI Baeslines 详解（零）综述"
+date: 2019-07-05
+excerpt: "OPENAI是强化学习的有力推进者，领导者。Beseline算法是OPENAI 在github上开源的强化学习标准程序。Beseline 顾名思义 ，构建新想法更先进的研究基础；同时，也是衡量新的算法的基准。"
+tags: [openai, baselines, code]
+comments: true
 ---
+
+
+
+
 
 OPENAI是强化学习的有力推进者，领导者。Beseline算法是OPENAI 在github上开源的强化学习标准程序。Beseline 顾名思义 ，构建新想法更先进的研究基础；同时，也是衡量新的算法的基准。
 
-# OPENAI Baeslines 详解（一）
+# OPENAI Baeslines 详解（零）综述
 
 
 

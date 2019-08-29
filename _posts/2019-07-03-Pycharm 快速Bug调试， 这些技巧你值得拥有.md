@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Pycharm 及 Python 小技巧
-author: Xiangyu Zhang
+title: "Pycharm及Python技巧 你值得拥有！"
+date: 2012-05-23
+excerpt: "A ton of skill of pycharm."
+tags: [pycharm,python]
+comments: true
 ---
 
-
-
-Pycharm及Python技巧 你值得拥有！
 
 
 
