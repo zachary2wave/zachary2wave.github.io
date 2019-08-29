@@ -13,6 +13,7 @@ url:                https://zachary2wave.github.io
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
+mathjax:            true
 highlighter:        rouge
 kramdown:
   auto_ids:         true
