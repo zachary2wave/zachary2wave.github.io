@@ -1,7 +1,12 @@
 ---
 layout: post
-title:  OPENAI-Baeslines-详解（三）-DDPG中文
-author: Xiangyu Zhang
+title:   " OPENAI-Baeslines-详解（三）-DDPG中文"
+date:   2019-03-19
+excerpt: "DDPG 深度确定性策略梯度下降算法。[论文链接](https://arxiv.org/abs/1509.02971)。采用了Actor-Critic 架构，可以有效的处理连续域的问题。同时，其actor的确定性动作输出，提高了采样的有效性。"
+tag:
+- GYM
+- reinforcement learning 
+comments: False
 ---
 
 DDPG 深度确定性策略梯度下降算法。[论文链接](https://arxiv.org/abs/1509.02971)。采用了Actor-Critic 架构，可以有效的处理连续域的问题。
@@ -11,7 +16,7 @@ DDPG 深度确定性策略梯度下降算法。[论文链接](https://arxiv.org/
 ## Actor-Critic and DPG
 
 强化学习算法的主要目标是去学习一个策略，来指导agent与环境交互从而得到更好的收益。策略$\pi_{\theta}(a|s)$是以$\theta$为参数的概率分布，代表不同状态下所采用的动作的概率分布。在学习的过程中不断的改变该函数的参数 $\theta$，从而改变应对环境的策略，以得到更好的奖励。当策略固定时，其所遍历的状态动作概率可以表示为
-$$p_\theta \left( {{{\bf{s}}_1},{{\bf{a}}_1}, \ldots ,{{\bf{s}}_T},{{\bf{a}}_T}} \right)_{{p_\theta }(\tau )} = p\left( {{{\bf{s}}_1}} \right)\prod\limits_{t = 1}^T {{\pi _\theta }} \left( {{{\bf{a}}_t}|{{\bf{s}}_t}} \right)p\left( {{{\bf{s}}_{t + 1}}|{{\bf{s}}_t},{{\bf{a}}_t}} \right)$$
+\[ p_\theta \left( {{{\bf{s}}_1},{{\bf{a}}_1}, \ldots ,{{\bf{s}}_T},{{\bf{a}}_T}} \right)_{{p_\theta }(\tau )} = p\left( {{{\bf{s}}_1}} \right)\prod\limits_{t = 1}^T {{\pi _\theta }} \left( {{{\bf{a}}_t}|{{\bf{s}}_t}} \right)p\left( {{{\bf{s}}_{t + 1}}|{{\bf{s}}_t},{{\bf{a}}_t}} \right) \]
 对单个状态而言，其到达概率为：
 $$
 \rho^{\pi}(s')=\int_{\mathcal{S}} \sum_{t=1}^{\infty} \gamma^{t-1} p_{1}(s) p\left(s \rightarrow s^{\prime}, t, \pi\right) \mathrm{d} s
