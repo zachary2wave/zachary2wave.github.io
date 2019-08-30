@@ -73,68 +73,9 @@ train  函数主要是 调用算法和环境。
 
 ### main
 
-其中main是最主要的部分，主要有
-
-```python
-def main(args):
-    # 参数部分
-    arg_parser = common_arg_parser()
-    args, unknown_args = arg_parser.parse_known_args(args)
-    extra_args = parse_cmdline_kwargs(unknown_args)
-    # 调用模型和环境
-    model, env = train(args, extra_args)
-    if args.play:
-        logger.log("Running trained model")
-        # 环境重置
-        obs = env.reset()
-        episode_rew = 0
-        # GYM式循环不断训练
-        while True:
-            #  下一步
-            obs, rew, done, _ = env.step(actions)
-            episode_rew += rew[0] if isinstance(env, VecEnv) else rew
-            env.render()
-            done = done.any() if isinstance(done, np.ndarray) else done
-            if done:
-                print('episode_rew={}'.format(episode_rew))
-                episode_rew = 0
-                obs = env.reset()
-    env.close()
-    return model
-```
-
-主程序 main 是跟OPENAI的GYM统一的步调。   具有循环 step、done、reset 几个步骤。
+其中main是最主要的部分，主程序 main 是跟OPENAI的GYM统一的步调。   具有循环 step、done、reset 几个步骤。
 
 ### Train
-
-Train函数
-
-``` python
-def train(args, extra_args):
-    env_type, env_id = get_env_type(args)
-    print('env_type: {}'.format(env_type))
-
-    learn = get_learn_function(args.alg)
-
-    env = build_env(args)
-    # 选择网络 
-    if args.network:
-        alg_kwargs['network'] = args.network
-    else:
-        if alg_kwargs.get('network') is None:
-            alg_kwargs['network'] = get_default_network(env_type)
-    # model调用函数的model      
-    model = learn(
-        env=env,
-        seed=seed,
-        total_timesteps=total_timesteps,
-        **alg_kwargs
-    )
-
-    return model, env
-```
-
-
 
 Train 函数主要是调用算法到 model中，然后再调用算法到learning 这个函数中
 
@@ -142,7 +83,39 @@ env   是调用环境的 主要还是与OPENAI的GYM相对接。
 
 ## common 文件夹
 
+### common 文件夹 简述
+#### 1、models  生成神经网络
 
+用于神经网络  主要是有生成mlp （全连接网络）、CNN、IMPALA-CNN（https://arxiv.org/abs/1802.01561）、LSTM、CNN—LSTM 、impala_cnn_lstm。
+
+####  2、Distributions 分布函数
+
+主要是将变量映射成变成分布函数
+
+- Box 连续空间->DiagGaussianPdType （对角高斯概率分布）
+- Discrete离散空间->SoftCategoricalPdType（软分类概率分布）
+- MultiDiscrete连续空间->SoftMultiCategoricalPdType （多变量软分类概率分布）
+- 多二值变量连续空间->BernoulliPdType （伯努利概率分布）
+
+分为两个大类 PD 和 PdType，具体请参考MADDPG中的。
+
+#### 3、OPEN  Message Passing Library  MPI_xxx
+
+并行计算编程的统一框架，其中调用了mpi4py，具体参看https://zhuanlan.zhihu.com/p/25332041。
+
+####  4、XXX_util 类函数  辅助函数
+
+主要有 plot_util 、math_util、misc_util、mlp_util、cmd_util、console_util .
+
+
+
+
+
+ 
+
+
+
+ 
 
 
 
