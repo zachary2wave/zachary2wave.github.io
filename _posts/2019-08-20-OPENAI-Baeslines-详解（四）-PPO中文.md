@@ -24,9 +24,7 @@ comments: true
 ### TRPO
 
 基于策略的强化学习的主要目标是找到一个“ **可以让带有折扣的未来期望的收益达到最大**  ” 的策略。带有折扣的未来期望的收益可以表示为：
-$$
-\eta(\pi)=\mathbb{E}_{s_{0}, a_{0}, \ldots}\left[\sum_{t=0}^{\infty} \gamma^{t} r\left(s_{t}\right)\right]
-$$
+\\[   \eta(\pi)=\mathbb{E}_{s_{0}, a_{0}, \ldots}\left[\sum_{t=0}^{\infty} \gamma^{t} r\left(s_{t}\right)\right]  \\]
 TRPO的主要想法就是在每一步更新的策略的时候，新的策略都要比老的策略好。那么新旧策略之间的期望收益差可以表示为：
 $$
 \eta (\tilde \pi ) = \eta (\pi ) +\mathbb{E} \underbrace {{_{{\tau\sim\tilde \pi }}}\left[ {\sum\limits_{t = 0}^\infty  {{\gamma ^t}} {A_\pi }\left( {{s_t},{a_t}} \right)} \right]}_{{\rm{policy \quad  gap}}}
