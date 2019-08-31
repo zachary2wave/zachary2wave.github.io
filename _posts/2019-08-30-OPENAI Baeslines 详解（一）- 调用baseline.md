@@ -150,6 +150,18 @@ def train(args, extra_args):
     return model, env
 ```
 
+使用自己的网络
+
+
+
+```
+from baselines.common.models import register@register("your_network_name")def your_network_define(**net_kwargs):    ...    return network_fn
+```
+
+
+
+
+
 ## 更简单的方式调用
 
 Baselines 中包含很多东西是atari、mujoco、retro等，如果我们利用自己的环境，那么大可不必那么复杂的代码。
