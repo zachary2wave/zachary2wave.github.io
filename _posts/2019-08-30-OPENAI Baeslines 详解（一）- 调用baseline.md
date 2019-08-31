@@ -1,3 +1,13 @@
+---
+layout: post
+title: "OPENAI Baeslines 详解（一）开始学习"
+date: 2019-07-05
+excerpt: "直接上手baseline，来训练自己的环境。"
+tags: [openai, baselines, code]
+comments: true
+---
+
+
 # OPENAI Baeslines 详解（一）开始学习
 
 ## baselines
