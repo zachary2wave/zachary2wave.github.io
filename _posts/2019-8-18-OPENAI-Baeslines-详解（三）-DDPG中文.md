@@ -49,6 +49,57 @@ $$
 
 
 
+## 调用DDPG
+
+根据OPENAI-Baeslines-详解（一）中，需要在learning中传入的DDPG的参数。
+
++ 必备参数
+
+```python
+network, env,
+seed=None,
+total_timesteps=None,
+nb_epochs=None, # with default settings, perform 1M steps total
+nb_epoch_cycles=20,
+nb_rollout_steps=100,
+reward_scale=1.0,
+render=False,
+render_eval=False,
+noise_type='adaptive-param_0.2',
+```
++ 特有参数
+```python
+normalize_returns=False,
+normalize_observations=True,
+critic_l2_reg=1e-2,
+actor_lr=1e-4,
+critic_lr=1e-3,
+popart=False,
+gamma=0.99,
+clip_norm=None,
+nb_train_steps=50, # per epoch cycle and MPI worker,
+nb_eval_steps=100,
+batch_size=64, # per MPI worker
+tau=0.01,
+eval_env=None,
+param_noise_adaption_interval=50,
+**network_kwarg
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Baseline 中的DDPG
 
 DDPG文件夹下包含以下5个文件：

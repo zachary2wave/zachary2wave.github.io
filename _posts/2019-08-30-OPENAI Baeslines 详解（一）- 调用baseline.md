@@ -162,8 +162,6 @@ def train(args, extra_args):
 
 使用自己的网络
 
-
-
 ```
 from baselines.common.models import register@register("your_network_name")def your_network_define(**net_kwargs):    ...    return network_fn
 ```
@@ -176,7 +174,7 @@ from baselines.common.models import register@register("your_network_name")def yo
 
 Baselines 中包含很多东西是atari、mujoco、retro等，如果我们利用自己的环境，那么大可不必那么复杂的代码。
 
-这里给出一个精简了的代码，供大家使用。 可以在我的github中下载使用。
+这里给出一个精简了的run代码，供大家使用。
 
 ```python
 import os.path as osp
@@ -288,9 +286,7 @@ while True:
 
 
 
-这个地方要用一个辅助代码：
-
-
+这个地方要用一个辅助代码，需要命名为run_util.py 放在baseline中：
 
 ```python
 import gym

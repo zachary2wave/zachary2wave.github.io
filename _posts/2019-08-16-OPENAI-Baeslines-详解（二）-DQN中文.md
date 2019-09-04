@@ -55,6 +55,60 @@ Var_tar = $(1-\alpha)$ Var_tar + $ \alpha$ Var_main
 
 其中Var_tar 为target_net 的参数， Var_main为main_net的参数。
 
+## 调用DQN
+
+在OPENAI-Baeslines-详解（一）中已经有说明，这里具体说一下 DQN与其他的调用的不同。
+
+参数方便，DQN有一些特殊的超参数，需要调整。
+
+##### 普通参数：
+
+```python
+env,              # 所要训练的环境  一般为env=gym.make('envID')
+network,          # 字符串 'mlp'等几个 ，或者自己建立的网络。
+seed=None,        # 随机种子
+total_timesteps=100000, # 总训练步数
+train_freq=1,           # 总训练的频率，也就是每隔几步一训练
+print_freq=100,         # 在运行中多少步 输出一次训练结果
+**network_kwargs        # 网络构建参数
+checkpoint_freq=10000,  # 多少步保存一次网络参数
+checkpoint_path=None,   #
+param_noise=False,      # 参数噪声
+callback=None,          # 调用的callback
+load_path=None,         # 调用
+```
+
+##### 算法超参数
+
+```python
+lr=5e-4                     # 学习率
+exploration_fraction=0.1,   # 探索退火率
+exploration_final_eps=0.02, # 探索最小值
+learning_starts=1000,       # 从什么步数开始学习    
+gamma=1.0,                  # 公式（1）中的参数gamma
+target_network_update_freq=500,  # 硬更新的时候多少步更新一次
+
+```
+##### 经验池参数
+
+包含优先经验回放  （参考文章）[https://arxiv.org/abs/1511.05952]
+
+```python
+batch_size=32,                      # 每次选用的batch 是多大
+buffer_size=50000,                  # 训练池大小
+prioritized_replay=False,           # 优先经验回放 
+prioritized_replay_alpha=0.6,
+prioritized_replay_beta0=0.4,
+prioritized_replay_beta_iters=None,
+prioritized_replay_eps=1e-6,
+```
+
+##### 训练参数
+
+除了上面呢些 还有一些 需要在deep单独的参数需要设定。 分别在下面程序部分进行说明。
+
+
+
 ## DQN程序部分
 
 DQN的程序主要是有以下几个部分：
@@ -69,6 +123,21 @@ DQN的程序主要是有以下几个部分：
 + Models： 创建神经网络模型
 + replay_buffer:  经验池
 
+整个流程是这样的的
+
+一、Run 调用Deepq中的 learning 建立agent。
+
++ Learning 调用 deepq.model 建立神经网络 。
+  + deepq.model根据 common中models建立 神经网络的输入层和隐层，
+  + 利用 build_q_function 函数 建立输出层（这里可以增加duelingDQN）从而形成完整的神经网络。
+
++ 利用build_grapgh  中的build_act函数建立   状态 到 action的映射函数actor，在这里将确定性的动作选择 变为 随机动作 
++ 反向传播的trainer ，在这里增加正则化和 double DQN
+
+二、利用建立好的agent 进行训练（在learning内部）
+
+三、测试
+
 ###### 附：tf_util.function说明
 
 ```
@@ -77,17 +146,33 @@ function(inputs, outputs, updates=None, givens=None)
 
 input、output都是tf.tensor  updates是在输入input 之后 直接计算出 output 后 利用update提供的 loss 反向传播 更新 神经网络参数。
 
-### deepq-learning
+### Deepq
+
+193行 ，进行步骤一 
+
+202行， 调用子程序build_graph 建立agent
+
+### Models-build_q_func
+
+```
+network                # 网络模型 
+hiddens=[32]           # 隐层
+dueling=True,          # 是否利用dueling DQN
+layer_norm=False       # 隐层normalize
+**network_kwargs       # 其他网络参数
+```
+
+### deepq-learner
 
 输入 ：
 ```
 make_obs_ph ： 状态名称 用于创建 placeholder
 q_func：       Q函数的神经网络
-num_actions：  状态数
-optimizer ：   优化器
-grad_norm_clipping： 梯度剪裁
-gamma： 公式1 中的 gamma
-double_q： 是否利用 double Q算法
+num_actions：  动作数
+optimizer ：         # 优化器
+grad_norm_clipping： # 梯度剪裁
+gamma：              # 公式1 中的 gamma
+double_q：           # 是否利用 double Q算法
 param_noise： 参数噪声
 ```
 输出 ：
@@ -130,7 +215,7 @@ _act = U.function(inputs=[observations_ph, stochastic_ph, update_eps_ph],
 
 #####  反向传播-train 函数
 
-```
+```python
 # 估计当前Q值 
 q_t = q_func(obs_t_input.get(), num_actions, scope="q_func", reuse=True)  # reuse parameters from act
 q_func_vars = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope=tf.get_variable_scope().name + "/q_func")
@@ -165,9 +250,14 @@ q_values = U.function([obs_t_input], q_t)
 
 
 
+## DQN结果部分
 
+在最后 会得到的文件中会记录 3个部分
 
+| % time spent exploring  | 80   |
+| episodes                | 100      |
+| mean 100 episode reward | -200   |
+| steps                   | 1.98e+04 |
 
-
-
+分别代表多少个回合  平均 奖励  和总步数。
 
