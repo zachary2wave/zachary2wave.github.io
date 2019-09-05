@@ -53,36 +53,49 @@ $$
 
 根据OPENAI-Baeslines-详解（一）中，需要在learning中传入的DDPG的参数。
 
+
+
 + 必备参数
 
 ```python
 network, env,
 seed=None,
-total_timesteps=None,
-nb_epochs=None, # with default settings, perform 1M steps total
-nb_epoch_cycles=20,
-nb_rollout_steps=100,
-reward_scale=1.0,
-render=False,
+ # 总步数= 总回合数*每个回合的循环运行次数*每个回合与环境交互的次数
+ # 总步数 和总回合数 只能存在一个
+ # 若两个都不存在，那么epoch为500 
+total_timesteps=None,             # 总步数
+nb_epochs=None,                   # 总回合数 
+nb_epoch_cycles=20,               # 每个回合的循环运行次数
+nb_rollout_steps=100,             # 每个回合与环境交互的次数
+nb_train_steps=50,                # 每个回合训练次数
+nb_eval_steps=100,                
+
+# 在每个回合训练完成之后，开始测试环境的步数。
+
+render=False,                     # 是否显示交互
 render_eval=False,
 noise_type='adaptive-param_0.2',
 ```
-+ 特有参数
++ 超参数
 ```python
-normalize_returns=False,
-normalize_observations=True,
-critic_l2_reg=1e-2,
-actor_lr=1e-4,
-critic_lr=1e-3,
-popart=False,
 gamma=0.99,
-clip_norm=None,
-nb_train_steps=50, # per epoch cycle and MPI worker,
-nb_eval_steps=100,
-batch_size=64, # per MPI worker
+critic_l2_reg=1e-2,                 # critic正则化约束
+actor_lr=1e-4,                      # actor 学习率
+critic_lr=1e-3,                     # critic 学习率
 tau=0.01,
-eval_env=None,
-param_noise_adaption_interval=50,
+```
++ 技巧参数参数
+```python
+reward_scale=1.0,                   # 奖励的剪裁
+normalize_returns=False,            # 
+normalize_observations=True,        # 是否对噪声归一化
+popart=False,                       # 自适应Q值剪裁
+clip_norm=None,			    # 将输出的模裁剪到一定范围内
+#如果输出的为t 那么操作为t * clip_norm / l2norm(t)
+batch_size=64, # per MPI worker
+
+param_noise_adaption_interval=50,3
+
 **network_kwarg
 ```
 
