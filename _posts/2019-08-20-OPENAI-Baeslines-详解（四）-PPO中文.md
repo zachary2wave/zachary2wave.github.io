@@ -157,7 +157,17 @@ $$
 
 ## Baseline中的PPO
 
-baseline的PPO有两个版本一个版本为PPO1 一个版本为PPO2
+baseline的PPO有两个版本一个版本为PPO1 一个版本为PPO2,  目前看PPO1 已经被抛弃了 ，但是也是可以用的。
+
+PPO2 是多环境并行版本。4
+
+### PPO的实际实现
+
+从上面的伪算法可以看出，PPO还是基于actor、critic的架构。
+
+
+
+
 
 ### PPO1 版本
 
@@ -189,6 +199,10 @@ Baseline的PPO 主要分为以下3个部分：
 状态的创建：状态建立的时候 为了避免重复创建同名称的状态， 利用了 get_placeholder 这个函数创建。创建的时候 将所有的placeholder 都放入了一个字典里 类型为{"名称"：placeholder，数据类型，数据维度}。 创建好的状态都可以直接用 函数get_placeholder_cached 来进行调用。
 
 然后对ob进行归一化，所有都归一到-5 到 5 之间。用RunningMeanStd 函数。
+
+
+
+
 
 
 

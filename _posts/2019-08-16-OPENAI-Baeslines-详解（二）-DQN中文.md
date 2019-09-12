@@ -55,6 +55,30 @@ Var_tar = $(1-\alpha)$ Var_tar + $ \alpha$ Var_main
 
 其中Var_tar 为target_net 的参数， Var_main为main_net的参数。
 
+### double DQN
+
+
+
+
+
+
+
+### dueling DQN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 调用DQN
 
 在OPENAI-Baeslines-详解（一）中已经有说明，这里具体说一下 DQN与其他的调用的不同。

@@ -53,14 +53,28 @@ $$
 
 根据OPENAI-Baeslines-详解（一）中，需要在learning中传入的DDPG的参数。
 
+在DDPG进行学习的时候，分为多个epoch。
 
+每个epoch 中 有进行 多个cycles ，每个cycles ，进行rollout次采样 、train_steps次训练和eval_steps次评估。
+
+total_step = epochs * epoch_cycles* rollout
+
+总步数= 总回合数 * 每个回合的循环运行次数 * 每个回合与环境交互的次数。
+
+一个回合 不等于 一个episode 。 
+
+由于可以使用多个环境并行采样，所以 在一个cycle中 多个环境同时采样，每个环境都采样rollout次，无论这个环境是否done。
+
+有可能这个环境已经提前done了 ，他也要继续采样，到rollout次结束。
+
+**训练步数和 评估步数是不算在其中的**
 
 + 必备参数
 
 ```python
 network, env,
 seed=None,
- # 总步数= 总回合数*每个回合的循环运行次数*每个回合与环境交互的次数
+ 
  # 总步数 和总回合数 只能存在一个
  # 若两个都不存在，那么epoch为500 
 total_timesteps=None,             # 总步数
@@ -68,13 +82,13 @@ nb_epochs=None,                   # 总回合数
 nb_epoch_cycles=20,               # 每个回合的循环运行次数
 nb_rollout_steps=100,             # 每个回合与环境交互的次数
 nb_train_steps=50,                # 每个回合训练次数
-nb_eval_steps=100,                
-
-# 在每个回合训练完成之后，开始测试环境的步数。
+nb_eval_steps=100,                # 每个回合的评估次数
+eval_env=None, 			    # 在每个回合训练完成之后，开始测试环境的步数。
 
 render=False,                     # 是否显示交互
 render_eval=False,
 noise_type='adaptive-param_0.2',
+
 ```
 + 超参数
 ```python
@@ -82,7 +96,8 @@ gamma=0.99,
 critic_l2_reg=1e-2,                 # critic正则化约束
 actor_lr=1e-4,                      # actor 学习率
 critic_lr=1e-3,                     # critic 学习率
-tau=0.01,
+tau=0.01,                           # 软切换 的参数
+**network_kwarg                     # 网络参数
 ```
 + 技巧参数参数
 ```python
@@ -93,25 +108,53 @@ popart=False,                       # 自适应Q值剪裁
 clip_norm=None,			    # 将输出的模裁剪到一定范围内
 #如果输出的为t 那么操作为t * clip_norm / l2norm(t)
 batch_size=64, # per MPI worker
-
 param_noise_adaption_interval=50,3
-
-**network_kwarg
 ```
 
 
 
+## 观察baseline中的输出
+
+再运行程序的最后会得到progress.csv   输出的结果分为三个方面：
+
++ 样本的输出
+
+  + 'ret_rms_mean','ret_rms_std'
+  + 'obs_rms_mean','obs_rms_std'      # 固定样本的观察的 均值 和 方差
+  + 'reference_Q_mean','reference_Q_std'             
+    固定样本的Q值的 均值 和 方差  由样本的动作和状态 经由 critic 直接进行计算。
+  + 'reference_actor_Q_mean','reference_actor_Q_std' 
+    固定样本的Q值 的 均值 和 方差 由样本状态 经由actor 输出动作 然后 给critic 进行计算。
+  + 'reference_action_mean' 'reference_action_std'
+    动作均值和方差
+  + 'reference_perturbed_action_mean' 'reference_perturbed_action_std'
+    加入噪声之后的动作均值和方差
 
 
++ 本次epoch 的样本的输出
 
+    + 'rollout/return'                               # 从训练开始到现在的奖励均值
+    + 'rollout/return_std'                        # 从训练开始到现在的奖励方差
+    + 'rollout/return_history'                 # 100步 奖励均值
+    + 'rollout/return_history_std'         # 100步  奖励方差
+    + 'rollout/episode_steps'                # 从训练开始到现在的 每个episode 的步数。
+    + 'rollout/actions_mean'                 # 从训练开始到现在的动作平均
+    + 'rollout/Q_mean'                           # 从训练开始到现在的Q值平均
 
++ 总共的
 
-
-
-
-
-
-
+  + 'train/loss_actor'                           #  本epoch 的actor的loss
+  + 'train/loss_critic'                            #  本epoch 的critic的loss
+  + 'train/param_noise_distance'     #  本epoch 的actor的loss
+  + 'total/duration'                               #  总共持续的时间
+  + 'total/steps_per_second'             #   每一步所花的时间
+  + 'total/episodes'                              #   总共完成的回合数
+  
+  + 'rollout/episodes'                         
+  
+     ##### 一个epoch完成的回合数 episodes（这边有一个小bug，弟124行的 epoch_episodes = 0 应该在for循环下面）
+  
+  + 'rollout/actions_std'                        #  动作平均
 
 ## Baseline 中的DDPG
 
@@ -125,7 +168,7 @@ DDPG文件夹下包含以下5个文件：
 
 #### DDPG 主程序
 
-#####  初始化 
+#####  初始化
 
  建立网络 63~65行 
 
@@ -146,7 +189,6 @@ actor = Actor(nb_actions, network=network, **network_kwargs) # actor 网络
 每个epoch  需要有多个cycle  每个 cycle  中  rollout_step 次与环境交互  train_step 次进行训练。  
 
 ```python
-
 for epoch in range(nb_epochs):   
     for cycle in range(nb_epoch_cycles):
 ```
@@ -270,7 +312,7 @@ $\nabla_{\theta} J\left(\pi_{\theta}\right)$是$Q$对actor的参数求导数。
 
 因为经验回放 更新actor的时候是对当前actor的参数求导，所以必须对当前actor输入state 然后求得action 再将此时的action和state 送入critic ，并最后得到Q值 来更新 actor 参数。
 
-```
+```python
 def setup_actor_optimizer(self):
 	self.actor_loss = -tf.reduce_mean(self.critic_with_actor_tf)# Q值
 	self.actor_grads = U.flatgrad(self.actor_loss, self.actor.trainable_vars, clip_norm=self.clip_norm) # 计算梯度
@@ -293,7 +335,7 @@ def setup_critic_optimizer(self):
 
 289 行 train
 
-```
+```python
 def train(self):
 	# 经验池随机采样
 	batch = self.memory.sample(batch_size=self.batch_size)
@@ -315,7 +357,7 @@ def train(self):
 
 噪声的生成主要是通过首先对actor 进行 copy   （155行函数）
 
-```
+```python
 def setup_param_noise(self, normalized_obs0):
 	param_noise_actor = copy(self.actor)
      self.perturbed_actor_tf = param_noise_actor(normalized_obs0)
@@ -324,7 +366,7 @@ def setup_param_noise(self, normalized_obs0):
 
 然后对copy后的actor的输出增加噪声
 
-```
+```python
 #50 行
 def get_perturbed_actor_updates(actor, perturbed_actor, param_noise_stddev):
 	# 增加均值为零 方差为param_noise_stddev的 高斯噪声
@@ -334,7 +376,7 @@ def get_perturbed_actor_updates(actor, perturbed_actor, param_noise_stddev):
 
 执行增加噪声, 在step函数中直接选择
 
-```
+```python
 #259行 
 if self.param_noise is not None and apply_noise:
     actor_tf = self.perturbed_actor_tf  # 注意 这里只选择了参数固定的噪声。
@@ -347,7 +389,7 @@ else:
 
 ###### 5、功能函数
 
-```
+```python
 # 初始化 将所有网络初始化、优化器初始化、硬更新一次target网络
 def initialize(self, sess):
 # 软更新target_net
@@ -358,3 +400,13 @@ def setup_stats(self):
 def get_stats(self):
 
 ```
+
+
+
+
+
+
+
+
+
+
