@@ -31,47 +31,49 @@ DQN算法 利用神经网络去拟合Q函数，面临3个问题：RL样本不独
 
 1、经验回放：从经验池中挑选出使得 RL样本 互相无关，并且可以学总体概率分布。
 
-2、标签构造-targetnet
-
-标签构造为
+2、标签构造-传统训练神经网络的时候是一个监督学习过程，需要标签，DQN将标签构造为
 $$
 R_{t+1}+\gamma \max _{a} Q\left(S_{t+1}, a\right)
 $$
-， 然后利用一个网络main-net 去计算当前的$Q\left(S_{t}, a\right)$ 用另一个网络target-net 去计算$Q\left(S_{t+1}, a\right)$.  并利用mainnet的参数去更新targetnet。
-
-LOSS：
+利用一个网络main-net 去计算当前的$Q\left(S_{t}, a\right)$ 用另一个网络target-net 去计算$Q\left(S_{t+1}, a\right)$.  这样就可以得到神经网络的训练误差LOSS：
 $$
 Q\left(S_{t}, a\right)-(R_{t+1}+\gamma \max _{a} Q\left(S_{t+1}, a\right))
 $$
+利用该误差去更新网络参数，最后求得准确的Q值。
+target-net的更新都是利用mainnet的参数，更新方式有两种，一种是软更新，即：
 
-
-
-
-更新方式有两种，一种是软更新，即：
-
-Var_tar = $(1-\alpha)$ Var_tar + $ \alpha$ Var_main 
+Var_tar = $(1-\alpha)$ Var_tar + $\alpha$ Var_main 
 
 一种是硬更新，即在多少次迭代之后将Var_main 直接赋值给 Var_tar。
 
-其中Var_tar 为target_net 的参数， Var_main为main_net的参数。
 
 ### double DQN
 
+double DQN 是为了解决神经网络过拟合的问题。
+引用原论文中的例子，来简单说明一下过拟合。首先有一个函数$Q_*\left(S_{t}, a\right)=2exp（-s^2）$，我们通过与环境交互得到了一些状态和动作，假设我们已经知道这些Q值都是正确的Q值。 那么利用现在采样的数据去拟合Q函数，然后才可以得到其他状态下的Q值函数。如果尝试用分别用6阶多项式和9阶来进行拟合的时候，上图为6阶拟合 明显看出这里没有拟合好，下图为9阶拟合，可以看出过拟合的情况。
+
+![1568338891815](H:\git_code\zachary2wave.github.io\_posts\1568338891815.png)
 
 
 
+其实，神经网络是具有非线性激活函数的多项式。那么可以想到，面对一个环境是寻找一个合适的神经网络也是非常困难的。
 
+所以针对这个问题，2015年 Deep Mind 的**Hado van Hasselt** 等几个人在 [文章](https://arxiv.org/abs/1509.06461)提出了double DQN网络。具体实现就是在选择$Q\left(S_{t+1}, a\right)$的时候不在利用target net动作a  而是利用main net 的动作a。这样很大程度上避免了 每次都选择最大的Q值动作。
 
+更深层次的原理，请移步深度解读系列。
+$$
+Y_{t}^{\text {Double } Q} \equiv R_{t+1}+\gamma Q\left(S_{t+1}, \underset{a}{\operatorname{argmax}} Q\left(S_{t+1}, a ; \boldsymbol{\theta}_{t}\right) ; \boldsymbol{\theta}_{t}^{\prime}\right)
+$$
 
-### dueling DQN
+### Dueling DQN
 
+2016年Deep Mind 在此基础上又提出了 Dueling DQN，Dueling DQN的主要思路是在实际的环境中，没有必要估计每个操作Q值。所以Dueling DQN用一种更为直接的方式去解决了这个问题，就是用同一个网络的做多输出的状态，其中上面一个输出口作为状态的V值输出， 下面的输出口作为每一个动作的Q值输出。
+$$
+Q(s, a ; \theta, \alpha, \beta)=V(s ; \theta, \beta)+A(s, a ; \theta, \alpha)
+$$
+上面的$\theta$代表的是前面层网络的输出，$\alpha$ $\beta$ 分别是输出V值和A值的全连接网络层。
 
-
-
-
-
-
-
+![1568345501105](image\1568345501105.png)
 
 
 
